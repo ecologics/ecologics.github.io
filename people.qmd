@@ -1,0 +1,6 @@
+---
+title: "People"
+lightbox: true
+---
+
+About the people

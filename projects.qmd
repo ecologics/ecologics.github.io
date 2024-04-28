@@ -1,0 +1,6 @@
+---
+title: "Projects"
+lightbox: true
+---
+
+About the projects we do in our lab.

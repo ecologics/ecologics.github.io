@@ -1,0 +1,11 @@
+/*-- scss:functions --*/
+@function colorToRGB ($color) {
+  @return "rgb(" + red($color) + ", " + green($color) + ", " + blue($color)+ ")";
+}
+
+/*-- scss:defaults --*/
+$navbar-brand-font-size: 1.5rem;
+$navbar-brand-margin-end: 3rem;
+$navbar-padding-y: 0.25rem;
+
+/*-- scss:rules --*/

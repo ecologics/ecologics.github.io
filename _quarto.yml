@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: "."
+
+website:
+  title: ABC Lab @ UCalgary
+  search: false
+  navbar:
+    logo: /images/abclab.png
+    #background: info
+    background: "#f2f2f2"
+    right:
+      - href: index.qmd
+        text: "Home"
+      - text: "Products"
+        menu: 
+          - text: "Publications"
+            file: publications.qmd
+          - text: "Media"
+            file: media.qmd
+          - text: "Illustration"
+            file: illustration.qmd
+      - text: "People"
+        menu:
+          - text: "Students & Trainees"
+            file: people.qmd
+          - text: "Dr. Paul Galpern"
+            file: pgalpern.qmd
+          - text: "Dr. Mindi Summers"
+            file: msummers.qmd
+      - text: "Projects"
+        menu:
+          - text: "Project 1"
+          - text: "Project 2"
+          - text: "Project 3"
+      - text: "Join us"
+        file: joinus.qmd
+    collapse: TRUE
+    collapse-below: xl
+    pinned: TRUE
+    
+
+format:
+  html:
+    theme:
+      - lux
+      - custom.scss
+    css: styles.css
+    toc: false
+    page-layout: full
+    # grid:
+    #  sidebar-width: 0px
+    #  body-width: 800px
+    #  margin-width: 400px
+    #  gutter-width: 1.5rem
+
+
+editor: visual
+
+
