@@ -5,3 +5,39 @@
 .nav-link {
     font-size: 1.25rem; /* Adjust the value as needed */
 }
+
+.responsive-normal {
+  display: none;
+}
+
+.responsive-1000px {
+  display: block;
+}
+
+.h2-special {
+  border-color: lightgrey; 
+  margin-top: 2rem;
+}
+
+@media (min-width: 1000px) {
+
+  .responsive-normal {
+    display: block;
+  }
+
+  .responsive-1000px {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  
+  body {
+    line-height: 1.1em;
+  }
+  
+  .h2-special {
+    border-color: lightgrey; 
+    margin-top: 0rem;
+  }
+}
