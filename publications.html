@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ABC Lab - Publications</title>
+<title>A⋅B+C Lab - Publications</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -65,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="./images/abclab.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">ABC Lab</span>
+    <span class="navbar-title">A⋅B+C Lab</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -73,10 +72,25 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./projects_agriculture.html">
+ <span class="dropdown-text">Agriculture</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects_biodiversity.html">
+ <span class="dropdown-text">Biodiversity</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects_conservation.html">
+ <span class="dropdown-text">Conservation</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Products</span>
@@ -113,16 +127,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./msummers.html">
  <span class="dropdown-text">Dr.&nbsp;Mindi Summers</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
-        <li class="dropdown-header">Project 1</li>
-        <li class="dropdown-header">Project 2</li>
-        <li class="dropdown-header">Project 3</li>
     </ul>
   </li>
   <li class="nav-item">
@@ -167,7 +171,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</main> <!-- /main -->
+<div style="font-size: 0.8rem; margin-top: 5rem; border-top: 1px solid lightgrey; 
+border-bottom: 1px solid lightgrey; line-height: 0.95rem; padding: 0.5rem;">
+The A⋅B+C Lab is a collective project of <a href="https://profiles.ucalgary.ca/paul-galpern">Dr.&nbsp;Paul Galpern</a>, <a href="https://profiles.ucalgary.ca/mindi-summers">Dr.&nbsp;Mindi Summers</a>, and their students and trainees at University of Calgary, Alberta, Canada.<br>
+
+<div style="font-size: 0.6rem; margin-top: 0.5rem; line-height: 0.7rem;">
+Image content created by past or present lab members is credited; other images are licensed or are in the public domain;<br>
+Lab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -188,13 +200,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

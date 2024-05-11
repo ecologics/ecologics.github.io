@@ -4,3 +4,7 @@ lightbox: true
 ---
 
 About the projects we do in our lab.
+
+We use morphological, genomic and functional trait approaches to learn about insect and arthropod diversity. A major focus are beneficial insects that provide ecosystem services such as pollination and pest control.
+
+Our team has sampled more than 350 species of bees and beetles at hundreds of sites. Our collection of bee specimens is probably the fourth largest in Canada. We work with citizen scientists in Calgary to catalog the urban bees. One of us even named a new cryptic species of bumble bee, *Bombus hibernus* hiding in the Rocky mountains.

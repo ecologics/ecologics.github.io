@@ -4,55 +4,167 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "About the projects we do in our lab."
+    "text": "About the projects we do in our lab.\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
   },
   {
-    "objectID": "pgalpern.html",
-    "href": "pgalpern.html",
-    "title": "Paul Galpern",
+    "objectID": "projects_biodiversity.html",
+    "href": "projects_biodiversity.html",
+    "title": "Biodiversity",
     "section": "",
-    "text": "Paul’s page"
-  },
-  {
-    "objectID": "msummers.html",
-    "href": "msummers.html",
-    "title": "Mindi Summers",
-    "section": "",
-    "text": "Mindi’s page"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ABC Lab",
-    "section": "",
-    "text": "Hello\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarginal information"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=174.768, lat=-36.852, popup=\"The birthplace of R\")\n\n\n\n\n\n\nTab 1Tab 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)\nggplot(tibble(x=rnorm(100)) %&gt;%\n         mutate(y=2*x^2 +3*x + 1 + rnorm(100))) +\n  aes(x=x, y=y) +\n  geom_point() +\n  geom_smooth(method=\"gam\", formula=y~s(x, k=5))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)\nggplot(tibble(x=rnorm(100)) %&gt;%\n         mutate(y=2*x^2 +3*x + 1 + rnorm(100))) +\n  aes(x=x, y=y) +\n  geom_point() +\n  geom_smooth(method=\"gam\", formula=y~s(x, k=5))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\nThis content can be styled with a border\n\n\n\n\n\n\n\n\nG\n\n\n\necology\n\necology\n\n\n\nagriculture\n\nagriculture\n\n\n\necology--agriculture\n\n\n\n\necosystem_services\n\necosystem_services\n\n\n\nagriculture--ecosystem_services\n\n\n\n\npest_control\n\npest_control\n\n\n\necosystem_services--pest_control\n\n\n\n\npollination\n\npollination\n\n\n\necosystem_services--pollination\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick me\n\n\n\n\n\nClick me"
-  },
-  {
-    "objectID": "joinus.html",
-    "href": "joinus.html",
-    "title": "Join us",
-    "section": "",
-    "text": "What you need to know to join us."
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "About the people"
+    "text": "Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) Bombus ternarius, a bumble bee of conservation concern, in Alberta. (Centre) Pterostichus melanarius, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC.\n\n\nWe love insects! So little is known about so many species. We’re working hard to change this, close to home, in Alberta and B.C. Our team has sampled more than 350 species of bees and beetles at hundreds of sites. A major focus are the beneficial insects that provide ecosystem services such as pollination, and in agricultural systems, pest control and weed control.\n\n\n\nBeneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) Bombus ternarius, a bumble bee of conservation concern, in Alberta. (Centre) Pterostichus melanarius, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC.\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "About the projects we do in our lab."
+    "text": "About the projects we do in our lab.\nWe use morphological, genomic and functional trait approaches to learn about insect and arthropod diversity. A major focus are beneficial insects that provide ecosystem services such as pollination and pest control.\nOur team has sampled more than 350 species of bees and beetles at hundreds of sites. Our collection of bee specimens is probably the fourth largest in Canada. We work with citizen scientists in Calgary to catalog the urban bees. One of us even named a new cryptic species of bumble bee, Bombus hibernus hiding in the Rocky mountains.\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "About the people\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+  },
+  {
+    "objectID": "joinus.html",
+    "href": "joinus.html",
+    "title": "Join us",
+    "section": "",
+    "text": "What you need to know to join us.\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Dr. Paul Galpern, Dr. Mindi Summers\nand their students and trainees\nDepartment of Biological Sciences\nUniversity of Calgary, Alberta, Canada"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Agriculture\nWe study the sustainable intensification of agriculture, and explore whether changes to landscape management can lead to mutually beneficial solutions for food, farmers, biodiversity, and climate.\n\n\n\nLearn more about our research on agricultural sustainability, messy fields, “win-win-wins,” precision farming, remote sensing, and agrivoltaics in the Canadian Prairies"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Biodiversity\nWe love bees, beetles and other invertebrates, and research the ecosystem services supplied by these species.\n\n\n\nLearn more about our research on arthropod biodiversity and the pollination, pest regulation and weed control ecosystem services supplied by arthropods"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Conservation\nWe study the theory and the practice of conservation at landscape scales, with a focus on prairie, mountain, and urban ecosystems in western Canada.\n\n\n\nLearn more about our research in landscape ecology, climate change impacts on biodiversity, ecological methods, collaborative science in cities, and our transdisciplinary studies of how people use city parks and streets\n\n\n\n\n\nLearn more about our research on agricultural sustainability, messy fields, “win-win-wins,” precision farming, remote sensing, and agrivoltaics in the Canadian Prairies\nLearn more about our research on arthropod biodiversity and the pollination, pest regulation and weed control ecosystem services supplied by arthropods\nLearn more about our research in landscape ecology, climate change impacts on biodiversity, ecological methods, collaborative science in cities, and our transdisciplinary studies of how people use city parks and streets"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=174.768, lat=-36.852, popup=\"The birthplace of R\")\n\n\n\n\n\n\nTab 1Tab 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)\nggplot(tibble(x=rnorm(100)) %&gt;%\n         mutate(y=2*x^2 +3*x + 1 + rnorm(100))) +\n  aes(x=x, y=y) +\n  geom_point() +\n  geom_smooth(method=\"gam\", formula=y~s(x, k=5))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)\nggplot(tibble(x=rnorm(100)) %&gt;%\n         mutate(y=2*x^2 +3*x + 1 + rnorm(100))) +\n  aes(x=x, y=y) +\n  geom_point() +\n  geom_smooth(method=\"gam\", formula=y~s(x, k=5))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\nThis content can be styled with a border\n\n\n\n\n\n\n\n\nG\n\n\n\necology\n\necology\n\n\n\nagriculture\n\nagriculture\n\n\n\necology--agriculture\n\n\n\n\necosystem_services\n\necosystem_services\n\n\n\nagriculture--ecosystem_services\n\n\n\n\npest_control\n\npest_control\n\n\n\necosystem_services--pest_control\n\n\n\n\npollination\n\npollination\n\n\n\necosystem_services--pollination\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick me\n\n\n\n\n\nClick me\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+  },
+  {
+    "objectID": "index-ECOLOGICSXI.html",
+    "href": "index-ECOLOGICSXI.html",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Dr. Paul Galpern, Dr. Mindi Summers\nand their students and trainees\nDepartment of Biological Sciences\nUniversity of Calgary, Alberta, Canada"
+  },
+  {
+    "objectID": "index-ECOLOGICSXI.html#section",
+    "href": "index-ECOLOGICSXI.html#section",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Sustainable agricultural landscapes\nHow can we intensify agricultural production in a sustainable way? Our lab investigates win-win-wins in the Canadian Prairies where producers, ecosystems, and climate all have the potential to benefit through a change in landscape management. Making fields messier (e.g., by adding or retaining non-crop vegetation), our lab has reported, can increase crop yields and support beneficial insect taxa. Our Prairie Precision Sustainability Network asks how farmers can use marginal croplands more efficiently. Co-locating ranching with solar panels, called agrivoltaics, is another exciting project in our lab.\n\n\n\nAgricultural landscapes in Alberta, Saskatchewan and Manitoba are extensive, where crop fields have a footprint of &gt; 500,000 km2. Making production more intensive (i.e., more food on less land) will be critical in an era of global change. Non-crop vegetation, found in small isolated patches in fescue grassland (left) and parkland (right) ecoregions, may be a key lever."
+  },
+  {
+    "objectID": "index-ECOLOGICSXI.html#section-2",
+    "href": "index-ECOLOGICSXI.html#section-2",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Conservation in prairie, mountain and urban ecosystems\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.\n\n\n\n\nAgricultural landscapes in Alberta, Saskatchewan and Manitoba are extensive, where crop fields have a footprint of &gt; 500,000 km2. Making production more intensive (i.e., more food on less land) will be critical in an era of global change. Non-crop vegetation, found in small isolated patches in fescue grassland (left) and parkland (right) ecoregions, may be a key lever.\nBeneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) Bombus ternarius, a bumble bee of conservation concern, in Alberta. (Centre) Pterostichus melanarius, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC."
+  },
+  {
+    "objectID": "index_bak.html",
+    "href": "index_bak.html",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Dr. Paul Galpern, Dr. Mindi Summers\nand their students and trainees\nDepartment of Biological Sciences\nUniversity of Calgary, Alberta, Canada"
+  },
+  {
+    "objectID": "index_bak.html#section",
+    "href": "index_bak.html#section",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Agriculture: Sustainable landscapes\nHow can we intensify agricultural production in a sustainable way? Our lab investigates win-win-wins in the Canadian Prairies where producers, ecosystems, and climate all have the potential to benefit through a change in landscape management. Making fields messier (e.g., by adding or retaining non-crop vegetation), our lab has reported, can increase crop yields and support beneficial insect taxa. Our Prairie Precision Sustainability Network asks how farmers can use marginal croplands more efficiently. Co-locating ranching with solar panels, called agrivoltaics, is another exciting project in our lab.\n\n\n\nAgricultural landscapes in Alberta, Saskatchewan and Manitoba are extensive, where crop fields have a footprint of &gt; 500,000 km2. Making production more intensive (i.e., more food on less land) will be critical in an era of global change. Non-crop vegetation, found in small isolated patches in fescue grassland (left) and parkland (right) ecoregions, may be a key lever, and co-locating renewable energy generation with perennial pasturelands (centre) a new opportunity to combine food with net zero carbon objectives."
+  },
+  {
+    "objectID": "index_bak.html#section-2",
+    "href": "index_bak.html#section-2",
+    "title": "Agriculture, Biodiversity + Conservation Lab",
+    "section": "",
+    "text": "Conservation: in prairie, mountain and urban ecosystems\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.\n\n\n\n\nAgricultural landscapes in Alberta, Saskatchewan and Manitoba are extensive, where crop fields have a footprint of &gt; 500,000 km2. Making production more intensive (i.e., more food on less land) will be critical in an era of global change. Non-crop vegetation, found in small isolated patches in fescue grassland (left) and parkland (right) ecoregions, may be a key lever, and co-locating renewable energy generation with perennial pasturelands (centre) a new opportunity to combine food with net zero carbon objectives.\nBeneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) Bombus ternarius, a bumble bee of conservation concern, in Alberta. (Centre) Pterostichus melanarius, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC."
+  },
+  {
+    "objectID": "msummers.html",
+    "href": "msummers.html",
+    "title": "Mindi Summers",
+    "section": "",
+    "text": "Mindi’s page\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+  },
+  {
+    "objectID": "pgalpern.html",
+    "href": "pgalpern.html",
+    "title": "Paul Galpern",
+    "section": "",
+    "text": "Paul’s page\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+  },
+  {
+    "objectID": "projects_agriculture.html",
+    "href": "projects_agriculture.html",
+    "title": "Agriculture",
+    "section": "",
+    "text": "Figure 1: Most of Canada’s annual cropland is found in the Canadian Prairies. Making fields across the vast region messier by increasing perennial vegetation (left and right), may be a key lever to support agricultural sustainability. Co-locating renewable energy generation with perennial pasturelands (centre) is an opportunity to support food production while offsetting its carbon footprint."
+  },
+  {
+    "objectID": "projects_agriculture.html#the-challenge",
+    "href": "projects_agriculture.html#the-challenge",
+    "title": "Agriculture",
+    "section": "The challenge",
+    "text": "The challenge\n\nSustainable intensification of agriculture in the Canadian Prairies\nOur research is animated by the possibility that small changes to management in Canadian Prairie croplands (Figure 2) could lead to win-win-wins (i.e., mutually beneficial solutions for food production, biodiversity and climate).\n\n\n\n\n\n\n\n\nFigure 2: Annual crop fields (yellow) cover a footprint of ~500,000 km2 in the Canadian Prairie provinces of Alberta (AB), Saskatchewan (SK) and Manitoba (MB). That’s the same as covering France with only canola, wheat, barley and peas (and a few other crops). Achieving sustainable intensification across this vast region is a globally-significant challenge.\n\n\n\nFor example, we could make fields messier, by restoring or retaining perennial non-crop vegetation (Figure 1; left and right). This patches supply ecosystem services to the surrounding fields, and serve as habitats for biodiversity.\nOr, as our Prairie Precision Sustainability Network investigates, we can help farmers identify small parcels of low productivity land to remove from production, increasing profitability for the farmer, and creating new habitat and carbon sequestration opportunities when that land is restored in perennial plants.\nAgrivoltaics is another exciting project in our lab. Co-locating cattle ranching with solar panels in small arrays (&lt; 5 ha) helps to decarbonize our energy supply, and could have benefits for forage quality, soil health, and ecosystem services."
+  },
+  {
+    "objectID": "projects_agriculture.html#findings",
+    "href": "projects_agriculture.html#findings",
+    "title": "Agriculture",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "projects_agriculture.html#project",
+    "href": "projects_agriculture.html#project",
+    "title": "Agriculture",
+    "section": "Project",
+    "text": "Project\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero."
+  },
+  {
+    "objectID": "projects_agriculture.html#publications",
+    "href": "projects_agriculture.html#publications",
+    "title": "Agriculture",
+    "section": "Publications",
+    "text": "Publications\n\nFunders\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.\n\n\nKeywords\n\n\n\nFigure 1: Most of Canada’s annual cropland is found in the Canadian Prairies. Making fields across the vast region messier by increasing perennial vegetation (left and right), may be a key lever to support agricultural sustainability. Co-locating renewable energy generation with perennial pasturelands (centre) is an opportunity to support food production while offsetting its carbon footprint.\nFigure 2: Annual crop fields (yellow) cover a footprint of ~500,000 km2 in the Canadian Prairie provinces of Alberta (AB), Saskatchewan (SK) and Manitoba (MB). That’s the same as covering France with only canola, wheat, barley and peas (and a few other crops). Achieving sustainable intensification across this vast region is a globally-significant challenge."
+  },
+  {
+    "objectID": "projects_conservation.html",
+    "href": "projects_conservation.html",
+    "title": "Conservation",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
   }
 ]

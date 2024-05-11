@@ -9,3 +9,8 @@ $navbar-brand-margin-end: 3rem;
 $navbar-padding-y: 0.25rem;
 
 /*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: none; /* Remove the text shadow */
+  margin-top: 1em;
+}
+

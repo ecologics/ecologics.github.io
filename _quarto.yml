@@ -3,15 +3,33 @@ project:
   output-dir: "."
 
 website:
-  title: ABC Lab
+  title: "A⋅B+C Lab"
   search: false
+  body-footer: |
+  
+    <div style="font-size: 0.8rem; margin-top: 5rem; border-top: 1px solid lightgrey; 
+    border-bottom: 1px solid lightgrey; line-height: 0.95rem; padding: 0.5rem;">
+    The A⋅B+C Lab is a collective project of 
+    [Dr. Paul Galpern](https://profiles.ucalgary.ca/paul-galpern), 
+    [Dr. Mindi Summers](https://profiles.ucalgary.ca/mindi-summers), 
+    and their students and trainees at University of Calgary, Alberta, Canada.  
+    <div style="font-size: 0.6rem; margin-top: 0.5rem; line-height: 0.7rem;">Image content 
+    created by  past or present lab members is credited; other images are licensed or are in 
+    the public domain;  
+    Lab logo and beetle line drawing by Tobyn Neame; Last content update:  May 2024</div></div>
   navbar:
     logo: /images/abclab.png
     #background: info
     background: "#f2f2f2"
     right:
-      - href: index.qmd
-        text: "Home"
+      - text: "Projects"
+        menu:
+          - text: "Agriculture"
+            file: projects_agriculture.qmd
+          - text: "Biodiversity"
+            file: projects_biodiversity.qmd
+          - text: "Conservation"
+            file: projects_conservation.qmd
       - text: "Products"
         menu: 
           - text: "Publications"
@@ -28,11 +46,7 @@ website:
             file: pgalpern.qmd
           - text: "Dr. Mindi Summers"
             file: msummers.qmd
-      - text: "Projects"
-        menu:
-          - text: "Project 1"
-          - text: "Project 2"
-          - text: "Project 3"
+
       - text: "Join us"
         file: joinus.qmd
     collapse: TRUE
@@ -40,18 +54,21 @@ website:
     pinned: TRUE
     
 
+    
+
 format:
   html:
+    anchor-sections: false
     theme:
       - lux
       - custom.scss
     css: styles.css
     toc: false
     page-layout: full
-    # grid:
+    grid:
     #  sidebar-width: 0px
-    #  body-width: 800px
-    #  margin-width: 400px
+       body-width: 600px
+       margin-width: 300px
     #  gutter-width: 1.5rem
 
 

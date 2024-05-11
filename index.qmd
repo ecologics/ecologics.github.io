@@ -1,37 +1,55 @@
 ---
-title: ""
-
+title: ""         
+lightbox: true
+format:
+  html:
+    grid:
+      sidebar-width: 200px
 ---
-Hello
 
 ::: grid
-::: g-col-2
-![](images/PaulGalpern500x500_Canola_July11_21.png){width="500"}
+::: g-col-3
+::: right
+![](images/abclab.png)
+:::
+:::
+
+::: g-col-7
+# Agriculture, Biodiversity + Conservation Lab
+
+| *Dr. Paul Galpern, Dr. Mindi Summers*
+| *and their students and trainees*
+| Department of Biological Sciences
+| University of Calgary, Alberta, Canada
 :::
 
 ::: g-col-2
-![](images/PaulGalpern500x500_Canola_July11_21.png){width="500"}
+::: left
+![](images/pterostichus_melanarius.png)
 :::
-
-::: g-col-2
-![](images/PaulGalpern500x500_Canola_July11_21.png){width="500"}
-:::
-
-::: g-col-2
-![](images/PaulGalpern500x500_Canola_July11_21.png){width="500"}
-:::
-
-::: g-col-2
-![](images/PaulGalpern500x500_Canola_July11_21.png){width="500"}
-:::
-
-::: g-col-2
-![](images/PaulGalpern500x500_Canola_July11_21.png){width="500"}
 :::
 :::
 
-:::{.column-margin}
-Marginal information
+##  {style="border-color: lightgrey; margin-top: 2rem;"}
 
-![](images/PaulGalpern500x500_Canola_July11_21.png){width="500"}
-:::
+### Agriculture
+
+We study the sustainable intensification of agriculture, and explore whether changes to landscape management can lead to mutually beneficial solutions for food, farmers, biodiversity, and climate.
+
+![[Learn more](projects_agriculture.qmd) about our research on agricultural sustainability, messy fields, "win-win-wins," precision farming, remote sensing, and agrivoltaics in the Canadian Prairies](images/agriculture_montage.png)
+
+##  {style="border-color: lightgrey; margin-top: 0rem;"}
+
+### Biodiversity
+
+We love bees, beetles and other invertebrates, and research the ecosystem services supplied by these species.
+
+![[Learn more](projects_biodiversity.qmd) about our research on arthropod biodiversity and the pollination, pest regulation and weed control ecosystem services supplied by arthropods](images/biodiversity_montage.png)
+
+##  {style="border-color: lightgrey; margin-top: 0rem;"}
+
+### Conservation
+
+We study the theory and the practice of conservation at landscape scales, with a focus on prairie, mountain, and urban ecosystems in western Canada.
+
+![[Learn more](projects_conservation.qmdl) about our research in landscape ecology, climate change impacts on biodiversity, ecological methods, collaborative science in cities, and our transdisciplinary studies of how people use city parks and streets](images/conservation_montage.png)
