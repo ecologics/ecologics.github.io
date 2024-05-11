@@ -1,0 +1,40 @@
+---
+title: "Agriculture"         
+lightbox: true 
+format:
+  html:
+    toc: true
+    toc-location: right
+---
+
+![Most of Canada's annual cropland is found in the Canadian Prairies. Making fields across the vast region *messier* by increasing perennial vegetation (left and right), may be a key lever to support agricultural sustainability. Co-locating renewable energy generation with perennial pasturelands (centre) is an opportunity to support food production while offsetting its carbon footprint.](images/agriculture_montage.png){#fig-agriculture-montage}
+
+## The challenge {style="margin-top: 1rem;"}
+
+##### Sustainable intensification of agriculture in the Canadian Prairies
+
+Our research is animated by the possibility that small changes to management in Canadian Prairie croplands (@fig-prairie-crops) could lead to *win-win-wins* (i.e., mutually beneficial solutions for food production, biodiversity and climate).
+
+::: column-margin
+![Annual crop fields (yellow) cover a footprint of \~500,000 km^2^ in the Canadian Prairie provinces of Alberta (AB), Saskatchewan (SK) and Manitoba (MB). That's the same as covering France with only canola, wheat, barley and peas (and a few other crops). Achieving sustainable intensification across this vast region is a globally-significant challenge.](images/prairie_crops.png){#fig-prairie-crops}
+:::
+
+For example, we could make fields messier, by restoring or retaining perennial non-crop vegetation (@fig-agriculture-montage; left and right). This patches supply ecosystem services to the surrounding fields, and serve as habitats for biodiversity.
+
+Or, as our [Prairie Precision Sustainability Network](https://www.prairiepsn.ca) investigates, we can help farmers identify small parcels of low productivity land to remove from production, increasing profitability for the farmer, and creating new habitat and carbon sequestration opportunities when that land is restored in perennial plants.
+
+Agrivoltaics is another exciting project in our lab. Co-locating cattle ranching with solar panels in small arrays (\< 5 ha) helps to decarbonize our energy supply, and could have benefits for forage quality, soil health, and ecosystem services.
+
+## Findings
+
+## Project
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.
+
+## Publications
+
+### Funders {.unnumbered .unlisted}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.
+
+### Keywords {.unnumbered .unlisted}

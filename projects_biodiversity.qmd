@@ -1,0 +1,8 @@
+---
+title: "Biodiversity"         
+lightbox: true 
+---
+
+![Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) *Bombus ternarius*, a bumble bee of conservation concern, in Alberta. (Centre) *Pterostichus melanarius*, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC.](images/biodiversity_montage.png)
+
+We love insects! So little is known about so many species. We're working hard to change this, close to home, in Alberta and B.C. Our team has sampled more than 350 species of bees and beetles at hundreds of sites. A major focus are the beneficial insects that provide ecosystem services such as pollination, and in agricultural systems, pest control and weed control.
