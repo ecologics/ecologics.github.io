@@ -3,13 +3,13 @@ project:
   output-dir: "."
 
 website:
-  title: "A⋅B+C Lab"
+  title: "A+B⋅C Lab"
   search: false
   body-footer: |
   
-    <div style="font-size: 0.8rem; margin-top: 5rem; border-top: 1px solid lightgrey; 
+    <div style="font-size: 0.8rem; margin-top: 2rem; border-top: 1px solid lightgrey; 
     border-bottom: 1px solid lightgrey; line-height: 0.95rem; padding: 0.5rem;">
-    The A⋅B+C Lab is a collective project of 
+    The A+B⋅C Lab is a collective project of 
     [Dr. Paul Galpern](https://profiles.ucalgary.ca/paul-galpern), 
     [Dr. Mindi Summers](https://profiles.ucalgary.ca/mindi-summers), 
     and their students and trainees at University of Calgary, Alberta, Canada.  
@@ -70,7 +70,7 @@ format:
        margin-width: 300px
     #  gutter-width: 1.5rem
 
-
-editor: visual
+execute:
+  enabled: false
 
 
