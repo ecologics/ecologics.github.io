@@ -16,7 +16,7 @@ format:
 :::
 
 ::: g-col-7
-# Agriculture, Biodiversity + Conservation Lab
+# Agriculture + Biodiversity Conservation Lab
 
 | *Dr. Paul Galpern, Dr. Mindi Summers*
 | *and their students and trainees*
@@ -32,11 +32,11 @@ format:
 :::
 :::
 
-::: responsive-1000px
-::: {style="text-align: center;"}
-### Agriculture, Biodiversity + Conservation Lab
+::: responsive-small
+::: {style="text-align: center; padding: 1rem; background-color: #f2f2f2;"}
+# Agriculture + Biodiversity Conservation Lab
 
-*Dr. Paul Galpern, Dr. Mindi Summers* *and their students and trainees* Department of Biological Sciences University of Calgary, Alberta, Canada
+*Dr. Paul Galpern, Dr. Mindi Summers* *and their students and trainees* at the Department of Biological Sciences University of Calgary, Alberta, Canada
 :::
 :::
 ## {.h2-special}

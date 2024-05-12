@@ -10,7 +10,7 @@
   display: none;
 }
 
-.responsive-1000px {
+.responsive-small {
   display: block;
 }
 
@@ -19,25 +19,38 @@
   margin-top: 2rem;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 767px) {
 
   .responsive-normal {
     display: block;
   }
 
-  .responsive-1000px {
+  .responsive-small {
     display: none;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
   
   body {
-    line-height: 1.1em;
+    line-height: 1.2em;
   }
   
   .h2-special {
     border-color: lightgrey; 
     margin-top: 0rem;
   }
+  
+  .column-margin img {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .column-margin figcaption {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  figcaption {
+    line-height: 1.2em;
+  }
+
 }

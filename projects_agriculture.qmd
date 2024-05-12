@@ -7,7 +7,7 @@ format:
     toc-location: right
 ---
 
-![Most of Canada's annual cropland is found in the Canadian Prairies. Making fields across the vast region *messier* by increasing perennial vegetation (left and right), may be a key lever to support agricultural sustainability. Co-locating renewable energy generation with perennial pasturelands (centre) is an opportunity to support food production while offsetting its carbon footprint.](images/agriculture_montage.png){#fig-agriculture-montage}
+![Making fields messier (left and right), and co-locating renewable energy generation with pasture (centre) are examples of the lab's agricultural sustainability research.](images/agriculture_montage.png){#fig-agriculture-montage}
 
 ## The challenge {style="margin-top: 1rem;"}
 
@@ -19,11 +19,16 @@ Our research is animated by the possibility that small changes to management in 
 ![Annual crop fields (yellow) cover a footprint of \~500,000 km^2^ in the Canadian Prairie provinces of Alberta (AB), Saskatchewan (SK) and Manitoba (MB). That's the same as covering France with only canola, wheat, barley and peas (and a few other crops). Achieving sustainable intensification across this vast region is a globally-significant challenge.](images/prairie_crops.png){#fig-prairie-crops}
 :::
 
-For example, we could make fields messier, by restoring or retaining perennial non-crop vegetation (@fig-agriculture-montage; left and right). This patches supply ecosystem services to the surrounding fields, and serve as habitats for biodiversity.
+::: {.callout-tip appearance="simple" icon=false}
+[Why sustainable intensification?]{style="font-weight: 900;"} Finding ways to use less land to produce more food has received international recognition as a critical challenge to combat the climate crisis and safeguard biodiversity, while ensuring food security for all.
+:::
+
+For example, we could make fields messier, by restoring or retaining perennial non-crop vegetation (@fig-agriculture-montage; left and right). This patches supply ecosystem services to the surrounding fields, and serve as habitats for biodiversity, potentially improving crop yields in neighbouring fields
 
 Or, as our [Prairie Precision Sustainability Network](https://www.prairiepsn.ca) investigates, we can help farmers identify small parcels of low productivity land to remove from production, increasing profitability for the farmer, and creating new habitat and carbon sequestration opportunities when that land is restored in perennial plants.
 
-Agrivoltaics is another exciting project in our lab. Co-locating cattle ranching with solar panels in small arrays (\< 5 ha) helps to decarbonize our energy supply, and could have benefits for forage quality, soil health, and ecosystem services.
+Agrivoltaics is another exciting project in our lab. Co-locating cattle ranching with solar panels in small arrays (\< 5 ha) helps to decarbonize our energy supply, and could have benefits for forage quality, soil health, and ecosystem services. In other words, maintaining food production while reducing impact.
+
 
 ## Findings
 
