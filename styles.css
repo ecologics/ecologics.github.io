@@ -42,12 +42,12 @@
   }
   
   .column-margin img {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .column-margin figcaption {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
   }
   figcaption {
