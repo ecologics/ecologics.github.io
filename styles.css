@@ -42,12 +42,21 @@
   }
   
   .column-margin img {
+<<<<<<< HEAD
     padding-left: 3rem;
     padding-right: 3rem;
   }
   .column-margin figcaption {
     padding-left: 3rem;
     padding-right: 3rem;
+=======
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .column-margin figcaption {
+    padding-left: 7rem;
+    padding-right: 7rem;
+>>>>>>> 10168bc9fd0ade4d63cef121c37ffad7631224b9
   }
   figcaption {
     line-height: 1.2em;
