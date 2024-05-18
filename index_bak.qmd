@@ -1,0 +1,48 @@
+---
+title: ""         
+lightbox: true 
+---
+
+::: grid
+::: g-col-3
+::: right
+![](images/abclab.png)
+:::
+:::
+
+::: g-col-8
+# Agriculture, Biodiversity + Conservation Lab
+
+| *Dr. Paul Galpern, Dr. Mindi Summers*
+| *and their students and trainees*
+| Department of Biological Sciences
+| University of Calgary, Alberta, Canada
+:::
+
+::: g-col-1
+:::
+:::
+
+##  {style="border-color: lightgrey; margin-top: 2rem;"}
+
+### Agriculture: Sustainable landscapes
+
+How can we intensify agricultural production in a sustainable way? Our lab investigates *win-win-wins* in the Canadian Prairies where producers, ecosystems, and climate all have the potential to benefit through a change in landscape management. Making fields messier (e.g., by adding or retaining non-crop vegetation), our lab has reported, can increase crop yields and support beneficial insect taxa. Our [Prairie Precision Sustainability Network](https://www.prairiepsn.ca) asks how farmers can use marginal croplands more efficiently. Co-locating ranching with solar panels, called agrivoltaics, is another exciting project in our lab.
+
+![Agricultural landscapes in Alberta, Saskatchewan and Manitoba are extensive, where crop fields have a footprint of \> 500,000 km^2^. Making production more *intensive* (i.e., more food on less land) will be critical in an era of global change. Non-crop vegetation, found in small isolated patches in fescue grassland (left) and parkland (right) ecoregions, may be a key lever, and co-locating renewable energy generation with perennial pasturelands (centre) a new opportunity to combine food with net zero carbon objectives.](images/agriculture_montage.png)
+
+#  {style="border-color: lightgrey"}
+
+### Biodiversity: insects, invertebrates and ecosystem services
+
+We love insects! So little is known about so many species. We're working hard to change this, close to home, in Alberta and B.C. Our team has sampled more than 350 species of bees and beetles at hundreds of sites. A major focus are the beneficial insects that provide ecosystem services such as pollination, and in agricultural systems, pest control and weed control.
+
+![Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) *Bombus ternarius*, a bumble bee of conservation concern, in Alberta. (Centre) *Pterostichus melanarius*, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC.](images/biodiversity_montage.png)
+
+##  {style="border-color: lightgrey"}
+
+### Conservation: in prairie, mountain and urban ecosystems
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.
+
+![](images/cropland_from_the_sky.png)
