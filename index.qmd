@@ -41,7 +41,7 @@ format:
 :::
 ## {.h2-special}
 
-### Agriculture
+### [Agriculture](projects_agriculture.qmd){style="text-decoration: none;"}
 
 We study the sustainable intensification of agriculture, and explore whether changes to landscape management can lead to mutually beneficial solutions for food, farmers, biodiversity, and climate.
 
@@ -49,7 +49,7 @@ We study the sustainable intensification of agriculture, and explore whether cha
 
 ##  {style="border-color: lightgrey; margin-top: 0rem;"}
 
-### Biodiversity
+### [Biodiversity](projects_biodiversity.qmd){style="text-decoration: none;"}
 
 We love bees, beetles and other invertebrates, and research the ecosystem services supplied by these species.
 
@@ -57,7 +57,7 @@ We love bees, beetles and other invertebrates, and research the ecosystem servic
 
 ##  {style="border-color: lightgrey; margin-top: 0rem;"}
 
-### Conservation
+### [Conservation](projects_conservation.qmd){style="text-decoration: none;"}
 
 We study the theory and the practice of conservation at landscape scales, with a focus on prairie, mountain, and urban ecosystems in western Canada.
 

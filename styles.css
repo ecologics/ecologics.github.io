@@ -6,6 +6,16 @@
     font-size: 1.25rem; /* Adjust the value as needed */
 }
 
+.trainee-highlight {
+  font-weight: 900;
+  color: red;
+}
+
+.pi-highlight {
+  font-weight: 900;
+  color: black;
+}
+
 .responsive-normal {
   display: none;
 }
@@ -42,12 +52,12 @@
   }
   
   .column-margin img {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .column-margin figcaption {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
   }
   figcaption {
@@ -55,3 +65,33 @@
   }
 
 }
+
+  
+.dropdown-item {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(242, 242, 242, 1);
+} 
+
+.dropdown-menu {
+  border-color: rgba(242, 242, 242, 1);
+} 
+
+.publications ol li {
+  padding-bottom: 1rem;
+  text-indent: -1.2rem;
+  padding-left: 1.2rem;
+}
+
+.publications .quarto-xref {
+  background-color: #FFFF00; 
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  border-radius: 0.3rem; 
+}
+
+.publications .quarto-float {
+  text-indent: 0rem;
+  padding-left: 0rem;
+}
+
+

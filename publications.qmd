@@ -1,6 +1,164 @@
 ---
-title: "Publications"
+title: "Publication List"
 lightbox: true
----
+bibliography: abclab.bib
+suppress-bibliography: true
+format: 
+  html:
+    include-before-body: script-include-publications.html
+--- 
 
-About the projects we do in our lab.
+<!-- Uncomment in order to generate bibliography from .bib file -->
+
+```{=html}
+<!-- Add the following to the YAML above
+    bibliography: abclab.bib
+    nocite: |
+      @*
+    csl: apa-annotated-bibliography.csl -->
+```
+<!-- Add the following below -->
+
+<!-- ::: {#refs}  -->
+
+<!-- ::: -->
+
+Here are a list of publications by lab members, with a curated sample of [figures]{style="background-color: #FFFF00; padding-left: 0.2rem; padding-right: 0.2rem;border-radius: 0.3rem;"} to illustrate the diversity of research in our lab. See the [Agriculture](projects_agriculture.qmd), [Biodiversity](projects_biodiversity.qmd), and [Conservation](projects_conservation.qmd) pages for a topic-based review of our research. 
+
+Graduate and undergraduate students, postdocs, technicians, and research associates who worked in the lab are [in red]{class="trainee-highlight"}, while lab PIs are [in black]{class="pi-highlight"}.
+
+::: publications  
+<ol reversed> 
+ 
+#### A⋅B+C Lab Publications {style="text-indent: -2rem;"}
+
+<li>Neame, T., Robinson, S., & Galpern, P. (2024). Proximity to non-crop vegetation increases estimates of predation frequency but not beetle numbers. *Agriculture, Ecosystems & Environment*. In revision.</li>
+
+<li>Neame, T. & Galpern, P. (2024). Body size mediates ground beetle conservation biocontrol outcomes. *Agriculture, Ecosystems & Environment*. In revision.</li>
+
+<li>Cohen, A. L., Devries, J. H., & Galpern, P. (2024). Wetland cover in agricultural landscapes is positively associated with bumblebee abundance. *Insect Conservation and Diversity*, *17*. [Link](https://doi.org/10.1111/icad.12701){target="_blank"}</li>
+
+<li>Rohde, A. T., Branstetter, M. G., Mock, K. E., Knoblett, J. N., Pilliod, D. S., Everett, J. G., Galpern, P., & Strange, J. P. (2024). Population genetics of museum specimens indicate decreasing genetic resiliency: The case of two bumble bees of conservation concern. *Biological Conservation*, *291*. [Link](https://doi.org/10.1016/j.biocon.2024.110453){target="_blank"}</li>
+
+<li>Clake, D. J., Rogers, S. M., & Galpern, P. (2024). Cryptic genotypic and phenotypic diversity in parapatric bumble bee populations associated with minimum cold temperatures. *Biodiversity and Conservation*, *33*. [Link](https://doi.org/10.1007/s10531-023-02753-1){target="_blank"} (@fig-clake2024)</li>
+
+::: {.column-margin}
+![@Clake2024 describe a new cryptic species of bumble bee in the Rocky mountains, named *Bombus hibernus* determined using genomic analyses. This research was led by lab PhD student Dr. Danielle Clake.](images/fig_clake2024.png){#fig-clake2024}
+:::
+
+<li>Innes, R., Neame, T., & Galpern, P. (2024). Contrasting late season pest insect abundance in non-crop vegetation areas and nearby canola fields in the canadian prairies. *Agricultural and Forest Entomology*. *In press.* [Link](https://doi.org/10.1111/afe.12626){target="_blank"} (@fig-innes2024)</li>
+
+::: column-margin
+![@Innes2024 investigated the late-season spillover of crop pests from perennial vegetation into canola in Alberta, and showed that except for leafhoppers (shown), pests are not moving from these habitats into the fields at this time of year. Lab undergraduate Honors student Becca Innes led this paper.](images/fig_innes2024.png){#fig-innes2024}
+:::
+
+<li>Kwafo, R., Galpern, P., & Cartar, R. V. (2023). Contrasting effects of landscape on nest founding and colony success of bumble bees in a mixed-crop agroecosystem. *Insect Conservation and Diversity*, *16*. [Link](https://doi.org/10.1111/icad.12611){target="_blank"}</li>
+
+<li>Robinson, S. V. J., Schwinghamer, T., Cárcamo, H., & Galpern, P. (2023). Precision agricultural data and ecosystem services: Can we put the pieces together? *Ecological Solutions and Evidence* 4:e12271. [Link](https://doi.org/10.1002/2688-8319.12271){target="_blank"} (@fig-robinson2023)</li>
+
+::: column-margin
+![@Robinson2023 motivate the potential for *"precision ag"* field maps collected by combine harvesting machinery to enhance agricultural sustainability. Postdoc Dr. Sam Robinson, who pioneered our lab's precision ag work, leads this demonstration of best practices (e.g., filter using several criteria).](images/fig_robinson2023.png){#fig-robinson2023}
+:::
+
+<li>Nguyen, L. H., Robinson, S., & Galpern, P. (2022). Effects of landscape complexity on crop productivity: An assessment from space. *Agriculture Ecosystems & Environment*, *328*, 107849. [Link](https://doi.org/10.1016/j.agee.2021.107849){target="_blank"} (@fig-nguyen2022)</li>
+
+::: column-margin
+![@Nguyen2022 determine the crop yield from 757 fields using remote sensing and precision data. They use this to show that non-crop vegetation ("messy places") creates a positive yield halo in nearby canola. This work was led by lab postdoc Dr. Lan Nguyen,](images/fig_nguyen2022.png){#fig-nguyen2022}
+:::
+
+<li>Nguyen, L., Robinson, S., & Galpern, P. (2022). Medium-resolution multispectral satellite imagery in precision agriculture: Mapping precision canola (brassica napus l.) yield using sentinel-2 time series. *Precision Agriculture*, *23*, 1051–1071. [Link](https://doi.org/10.1007/s11119-022-09874-7){target="_blank"}</li>
+
+<li>Robinson, S., Nguyen, L., & Galpern, P. (2022). Livin’ on the edge: Precision yield data shows evidence of ecosystem services from field boundaries. *Agriculture Ecosystems & Environment*, *333*, 107956. [Link](https://doi.org/10.1016/j.agee.2022.107956){target="_blank"}</li>
+
+<li>Clake, D. J., Rogers, S. M., & Galpern, P. (2022). Landscape complementation is a driver of bumble bee (bombus sp.) abundance in the canadian rocky mountains. *Landscape Ecology*, *37*. [Link](https://doi.org/10.1007/s10980-021-01389-2){target="_blank"}</li>
+
+<li>Doyle-Baker, P. K., Ladle, A., Rout, A., & Galpern, P. (2021). Smartphone GPS locations of students’ movements to and from campus. *ISPRS International Journal of Geo-Information*, *10*, 517. [Link](https://doi.org/10.3390/ijgi10080517){target="_blank"}</li>
+
+<li>Rout, A., Nitoslawski, S., Ladle, A., & Galpern, P. (2021). Using smartphone-GPS data to understand pedestrian-scale behavior in urban settings: A review of themes and approaches. *Computers, Environment and Urban Systems*, *90*, 101705. [Link](https://doi.org/10.1016/j.compenvurbsys.2021.101705){target="_blank"}</li>
+
+<li>Vickruck, J., Purvis, E. E. N., Kwafo, R., Kerstiens, H., & Galpern, P. (2021). Diversifying landscapes for wild bees: Strategies for north american prairie agroecosystems. *Current Landscape Ecology Reports*, *6*, 85–96. [Link](https://doi.org/10.1007/s40823-021-00066-z){target="_blank"} (@fig-vickruck2021)</li>
+
+::: column-margin
+![@Vickruck2021 set out principles for supporting wild bees in the Canadian Prairies. This diagram shows land management techniques with great potential for success. This review was a team effort led by lab postdoc Dr. Jess Vickruck.](images/fig_vickruck2021.png){#fig-vickruck2021}
+:::
+
+<li>Rout, A., & Galpern, P. (2021). Benches, fountains and trees: Using mixed-methods with questionnaire and smartphone data to design urban green spaces. *Urban Forestry and Urban Greening*, 127335. [Link](https://doi.org/10.1016/j.ufug.2021.127335){target="_blank"}</li>
+
+<li>Purvis, E. E. N., Best, L. R., & Galpern, P. (2021). Identifying key forage plants to support wild bee diversity and a species at risk in the prairie pothole region. *Insect Conservation and Diversity*, *14*, 851–861. [Link](https://doi.org/10.1111/icad.12524){target="_blank"}</li>
+
+<li>Robinson, S. V. J., Edwards, D., Vickruck, J. L., Best, L. R., & Galpern, P. (2021). Non-crop sources of beneficial arthropods vary within-season across a prairie agroecosystem. *Agriculture, Ecosystems and Environment*, *320*, 107581. [Link](https://doi.org/10.1016/j.agee.2021.107581){target="_blank"}</li>
+
+<li>Galpern, P., Best, L. R., Devries, J. H., & Johnson, S. A. (2021). Wild bee responses to cropland landscape complexity are temporally-variable and taxon-specific: Evidence from a highly replicated pseudo-experiment. *Agriculture, Ecosystems and Environment*, *322*, 107652. [Link](https://doi.org/10.1016/j.agee.2021.107652){target="_blank"}</li>
+
+<li>Galpern, P., Vickruck, J., Devries, J. H., & Gavin, M. P. (2020). Landscape complexity is associated with crop yields across a large temperate grassland region. *Agriculture, Ecosystems and Environment*, *290*, 106724. [Link](https://doi.org/10.1016/j.agee.2019.106724){target="_blank"}</li>
+
+<li>Chubaty, A. M., Galpern, P., & Doctolero, S. C. (2020). The r toolbox grainscape for modelling and visualizing landscape connectivity using spatially explicit networks. *Methods in Ecology and Evolution*, *11*, 591–595. [Link](https://doi.org/10.1111/2041-210X.13350){target="_blank"} (@fig-chubaty2020)</li>
+
+::: column-margin
+![@Chubaty2020 introduced [*grainscape*](https://cran.r-project.org/web/packages/grainscape/index.html), new R software for landscape connectivity modelling.  This team effort was led by visiting scientist Dr. Alex Chubaty and underwritten by lab undergraduate Sam Doctolero's breathtakingly efficient C++ code.](images/fig_chubaty2020.png){#fig-chubaty2020}
+:::
+
+<li>Galpern, P., & Gavin, M. P. (2020). Assessing the potential to increase landscape complexity in Canadian prairie croplands: A multi-scale analysis of land use pattern. *Frontiers in Environmental Science*, *8*, 31. [Link](https://doi.org/10.3389/fenvs.2020.00031){target="_blank"}</li>
+
+<li>Purvis, E. E. N., Vickruck, J. L., Best, L. R., Devries, J. H., & Galpern, P. (2020). Wild bee community recovery in restored grassland-wetland complexes of prairie north america. *Biological Conservation*, *252*, 108829. [Link](https://doi.org/10.1016/j.biocon.2020.108829){target="_blank"} (@fig-purvis2020)</li>
+
+::: column-margin
+![@Purvis2020 compared the diversity and the abundance of bees and the flowers at Alberta grassland-wetland sites of various times since restoration. This was analyzed by MSc student Emily Purvis, with sampling implemented by postdoc Dr. Jess Vickruck.](images/fig_purvis2020.png){#fig-purvis2020}
+:::
+
+<li>Priadka, P., Manseau, M., Trottier, T., Hervieux, D., Galpern, P., McLoughlin, P. D., & Wilson, P. J. (2019). Partitioning drivers of spatial genetic variation for a continuously distributed population of boreal caribou: Implications for management unit delineation. *Ecology and Evolution*, *9*, 141–153. [Link](https://doi.org/10.1002/ece3.4682){target="_blank"}</li>
+
+<li>Vickruck, J. L., Best, L. R., Gavin, M. P., Devries, J. H., & Galpern, P. (2019). Pothole wetlands provide reservoir habitat for native bees in prairie croplands. *Biological Conservation*, *232*, 42–50. [Link](https://doi.org/10.1016/j.biocon.2019.01.015){target="_blank"}</li>
+
+<li>Schweiger, O., Franzén, M., Frenzel, M., Galpern, P., Kerr, J., Papanikolaou, A., & Rasmont, P. (2019). Minimising risks of global change by enhancing resilience of pollinators in agricultural systems. In *Atlas of Ecosystem Services* (pp. 105–111). [Link](https://doi.org/10.1007/978-3-319-96229-0_17){target="_blank"}</li>
+
+<li>Galpern, P., Ladle, A., Uribe, F. A., Sandalack, B., & Doyle-Baker, P. (2018). Assessing urban connectivity using volunteered mobile phone GPS locations. *Applied Geography*, *93*, 37–46. [Link](https://doi.org/10.1016/j.apgeog.2018.02.009){target="_blank"}</li>
+
+<li>Ladle, A., Galpern, P., & Doyle-Baker, P. (2018). Measuring the use of green space with urban resource selection functions: An application using smartphone GPS locations. *Landscape and Urban Planning*, *179*, 107–115. [Link](https://doi.org/10.1016/j.landurbplan.2018.07.012){target="_blank"} (@fig-ladle2018)</li>
+
+::: column-margin
+![@Ladle2018 brought wildlife ecological methods to urban landscape planning, proposing urban resource selection functions (RSFs). This work, led by lab postdoc Dr. Andrew Ladle, introduced how we can use "human radiocollars" (GPS-enabled smartphones) to understand how people use Calgary parks (pictured).](images/fig_ladle2018.png){#fig-ladle2018}
+:::
+
+<li>Rout, A., & Galpern, P. (2018). Using personal smartphone location histories in public engagement: Locating a new campus amenity. *Applied Geography*, *100*, 68–77. [Link](https://doi.org/10.1016/j.apgeog.2018.09.003){target="_blank"}</li>
+
+<li>Galpern, P., Johnson, S. A., Retzlaff, J. L., Chang, D., & Swann, J. (2017). Reduced abundance and earlier collection of bumble bee workers under intensive cultivation of a mass-flowering prairie crop. *Ecology and Evolution*, *7*, 2414–2422. [Link](https://doi.org/10.1002/ece3.2856){target="_blank"}</li>
+
+<li>Gubili, C., Mariani, S., Weckworth, B. V., Galpern, P., McDevitt, A. D., Hebblewhite, M., Nickel, B., & Musiani, M. (2017). Environmental and anthropogenic drivers of connectivity patterns: A basis for prioritizing conservation efforts for threatened populations. *Evolutionary Applications*, *10*, 199–211. [Link](https://doi.org/10.1111/eva.12443){target="_blank"}</li>
+
+<li>Rout, A., & Galpern, P. (2017). Evidence-based design of outdoor learning spaces in winter: Behavioral mapping in a ’forest school’. In *Architectural Research Addressing Societal Challenges, Vols 1 and 2*. [Link](https://www.taylorfrancis.com/chapters/edit/10.1201/9781315116068-76/evidence-based-design-outdoor-learning-spaces-winter-behavioral-mapping-forest-school-rout-galpern){target="_blank"}</li>
+
+#### Paul Galpern Publications (2017 and earlier) {style="text-indent: -2rem;"}
+
+<li>Galpern, P. (2017). Validating walkability models using volunteered mobile phone data ( breakout presentation ). *Journal of Transport & Health*, *7*. [Link](https://doi.org/10.1016/j.jth.2017.11.041){target="_blank"}</li>
+
+<li>Lindquist, M., & Galpern, P. (2016). Crowdsourcing (in) voluntary citizen geospatial data from google android smartphones. *Journal of Digital Landscape Architecture*, *1*, 263–272. [Link](https://doi.org/10.14627/537612030){target="_blank"}</li>
+
+<li>Kerr, J. T., Pindar, A., Galpern, P., Packer, L., Potts, S. G., Roberts, S. M., Rasmont, P., Schweiger, O., Colla, S. R., Richardson, L. L., Wagner, D. L., Gall, L. F., Sikes, D. S., & Pantoja, A. (2015). Relocation risky for bumblebee colonies—response. *Science (New York, N.Y.)*, *350*, 287. [Link](https://doi.org/10.1126/science.350.6258.287){target="_blank"}</li>
+
+<li>Kerr, J. T., Pindar, A., Galpern, P., Packer, L., Potts, S. G., Roberts, S. M., Rasmont, P., Schweiger, O., Colla, S. R., Richardson, L. L., Wagner, D. L., & Gall, L. F. (2015). Climate change impacts on bumblebees converge across continents. *Science*, *349*, 177–180. [Link](https://doi.org/10.1126/science.aaa7031){target="_blank"}</li>
+
+<li>Galpern, P., Peres-Neto, P. R., Polfus, J., & Manseau, M. (2014). MEMGENE: Spatial pattern detection in genetic distance data. *Methods in Ecology and Evolution*, *5*, 1116–1120. [Link](https://doi.org/10.1111/2041-210X.12240){target="_blank"}</li>
+
+<li>Harris, L. N., Moore, J. S., Galpern, P., Tallman, R. F., & Taylor, E. B. (2014). Geographic influences on fine-scale, hierarchical population structure in northern canadian populations of anadromous arctic char (salvelinus alpinus). *Environmental Biology of Fishes*, *97*, 1233–1252. [Link](https://doi.org/10.1007/s10641-013-0210-y){target="_blank"}</li>
+
+<li>Galpern, P., & Manseau, M. (2013a). Modelling the influence of landscape connectivity on animal distribution: A functional grain approach. *Ecography*, *36*, 1004–1016. [Link](https://doi.org/10.1111/j.1600-0587.2012.00081.x){target="_blank"}</li>
+
+<li>Galpern, P., & Manseau, M. (2013b). Finding the functional grain: Comparing methods for scaling resistance surfaces. *Landscape Ecology*, *28*, 1269–1281. [Link](https://doi.org/10.1007/s10980-013-9873-1){target="_blank"}</li>
+
+<li>Galpern, P., Manseau, M., Hettinga, P. N., Wilson, P. J., & Smith, K. (2012). ALLELEMATCH: An r package for identifying unique multilocus genotypes where genotyping error and missing data may be present. *Molecular Ecology Resources*, *12*, 771–778. [Link](https://doi.org/10.1111/j.1755-0998.2012.03137.x){target="_blank"} (@fig-galpern2012)</li>
+
+::: column-margin
+![@Galpern2012 is R software that matches DNA samples based on genomic profiles. This tool has had significant impact on conservation on the ground (or water) with hundreds of cited applications to at-risk populations of terrestrial mammals, plants, birds, fishes, and marine mammals. It is currently maintained by Todd Cross. An example of profile matching is shown.](images/fig_galpern2012.png){#fig-galpern2012}
+:::
+
+<li>Galpern, P., Manseau, M., & Wilson, P. (2012). Grains of connectivity: Analysis at multiple spatial scales in landscape genetics. *Molecular Ecology*, *21*, 3996–4009. [Link](https://doi.org/10.1111/j.1365-294X.2012.05677.x){target="_blank"}</li>
+
+<li>Galpern, P., Manseau, M., & Fall, A. (2011). Patch-based graphs of landscape connectivity: A guide to construction, analysis and application for conservation. *Biological Conservation*, *144*, 44–55. [Link](https://doi.org/10.1016/j.biocon.2010.09.002){target="_blank"}</li>
+
+<li>Houle, D., Mezey, J., Galpern, P., & Carter, A. (2003). Automated measurement of drosophila wings. *BMC Evolutionary Biology*, *3*, 1–3. [Link](https://doi.org/10.1186/1471-2148-3-25){target="_blank"}</li>
+
+<li>Houle, D., Mezey, J., & Galpern, P. (2002). Interpretation of the results of common principal components analyses. *Evolution*, *56*, 433–440. [Link](https://doi.org/DOI:%2010.1111/j.0014-3820.2002.tb01356.x){target="_blank"}</li>
+
+</ol>
+:::
