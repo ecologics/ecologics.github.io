@@ -18,7 +18,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "About the projects we do in our lab.\nWe use morphological, genomic and functional trait approaches to learn about insect and arthropod diversity. A major focus are beneficial insects that provide ecosystem services such as pollination and pest control.\nOur team has sampled more than 350 species of bees and beetles at hundreds of sites. Our collection of bee specimens is probably the fourth largest in Canada. We work with citizen scientists in Calgary to catalog the urban bees. One of us even named a new cryptic species of bumble bee, Bombus hibernus hiding in the Rocky mountains.\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+    "text": "About the projects we do in our lab.\nWe use morphological, genomic and functional trait approaches to learn about insect and arthropod diversity. A major focus are beneficial insects that provide ecosystem services such as pollination and pest control.\nOur team has sampled more than 350 species of bees and beetles at hundreds of sites. Our collection of bee specimens is probably the fourth largest in Canada. We work with citizen scientists in Calgary to catalog the urban bees. One of us even named a new cryptic species of bumble bee, Bombus hibernus hiding in the Rocky mountains.\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain; Lab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
   },
   {
     "objectID": "people.html",
@@ -32,7 +32,7 @@
     "href": "joinus.html",
     "title": "Join us",
     "section": "",
-    "text": "What you need to know to join us.\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+    "text": "What you need to know to join us.\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain; Lab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
   },
   {
     "objectID": "index.html",
@@ -88,7 +88,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=174.768, lat=-36.852, popup=\"The birthplace of R\")\n\n\n\n\n\n\nTab 1Tab 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)\nggplot(tibble(x=rnorm(100)) %&gt;%\n         mutate(y=2*x^2 +3*x + 1 + rnorm(100))) +\n  aes(x=x, y=y) +\n  geom_point() +\n  geom_smooth(method=\"gam\", formula=y~s(x, k=5))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)\nggplot(tibble(x=rnorm(100)) %&gt;%\n         mutate(y=2*x^2 +3*x + 1 + rnorm(100))) +\n  aes(x=x, y=y) +\n  geom_point() +\n  geom_smooth(method=\"gam\", formula=y~s(x, k=5))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\nThis content can be styled with a border\n\n\n\n\n\n\n\n\nG\n\n\n\necology\n\necology\n\n\n\nagriculture\n\nagriculture\n\n\n\necology--agriculture\n\n\n\n\necosystem_services\n\necosystem_services\n\n\n\nagriculture--ecosystem_services\n\n\n\n\npest_control\n\npest_control\n\n\n\necosystem_services--pest_control\n\n\n\n\npollination\n\npollination\n\n\n\necosystem_services--pollination\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick me\n\n\n\n\n\nClick me\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=174.768, lat=-36.852, popup=\"The birthplace of R\")\n\n\n\n\n\n\nTab 1Tab 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)\nggplot(tibble(x=rnorm(100)) %&gt;%\n         mutate(y=2*x^2 +3*x + 1 + rnorm(100))) +\n  aes(x=x, y=y) +\n  geom_point() +\n  geom_smooth(method=\"gam\", formula=y~s(x, k=5))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)\nggplot(tibble(x=rnorm(100)) %&gt;%\n         mutate(y=2*x^2 +3*x + 1 + rnorm(100))) +\n  aes(x=x, y=y) +\n  geom_point() +\n  geom_smooth(method=\"gam\", formula=y~s(x, k=5))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\nThis content can be styled with a border\n\n\n\n\n\n\n\n\nG\n\n\n\necology\n\necology\n\n\n\nagriculture\n\nagriculture\n\n\n\necology--agriculture\n\n\n\n\necosystem_services\n\necosystem_services\n\n\n\nagriculture--ecosystem_services\n\n\n\n\npest_control\n\npest_control\n\n\n\necosystem_services--pest_control\n\n\n\n\npollination\n\npollination\n\n\n\necosystem_services--pollination\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick me\n\n\n\n\n\nClick me\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain; Lab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
   },
   {
     "objectID": "index-ECOLOGICSXI.html",
@@ -137,14 +137,14 @@
     "href": "msummers.html",
     "title": "Mindi Summers",
     "section": "",
-    "text": "Mindi’s page\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+    "text": "Mindi’s page\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain; Lab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
   },
   {
     "objectID": "pgalpern.html",
     "href": "pgalpern.html",
     "title": "Paul Galpern",
     "section": "",
-    "text": "Paul’s page\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain;\nLab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
+    "text": "Paul’s page\n\n\n\n\nThe A⋅B+C Lab is a collective project of Dr. Paul Galpern, Dr. Mindi Summers, and their students and trainees at University of Calgary, Alberta, Canada.\n\n\nImage content created by past or present lab members is credited; other images are licensed or are in the public domain; Lab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024"
   },
   {
     "objectID": "projects_agriculture.html",
