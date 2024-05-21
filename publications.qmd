@@ -18,14 +18,16 @@ format:
     csl: apa-annotated-bibliography.csl -->
 ```
 <!-- Add the following below -->
-
 <!-- ::: {#refs}  -->
-
 <!-- ::: -->
 
-Here are a list of publications by lab members, with a curated sample of [figures]{style="background-color: #FFFF00; padding-left: 0.2rem; padding-right: 0.2rem;border-radius: 0.3rem;"} to illustrate the diversity of research in our lab. See the [Agriculture](projects_agriculture.qmd), [Biodiversity](projects_biodiversity.qmd), and [Conservation](projects_conservation.qmd) pages for a topic-based review of our research. 
+<!-- To add people's names to highlighting -->
+<!--edit the trainee-highlighter.js file -->
 
-Graduate and undergraduate students, postdocs, technicians, and research associates who worked in the lab are [in red]{class="trainee-highlight"}, while lab PIs are [in black]{class="pi-highlight"}.
+
+This is a list of publications by lab members, with a curated sample of [figures]{style="background-color: #FFFF00; padding-left: 0.2rem; padding-right: 0.2rem;border-radius: 0.3rem;"} to illustrate the diversity of research in our lab. See the [Agriculture](projects_agriculture.qmd), [Biodiversity](projects_biodiversity.qmd), and [Conservation](projects_conservation.qmd) pages for a topic-based review of our research. 
+
+Graduate and undergraduate students, postdocs, technicians, and research associates who worked in the lab are [in red]{class="trainee-highlight"}. Lab PIs are [in black]{class="textual-bold"}.
 
 ::: publications  
 <ol reversed> 
@@ -95,7 +97,7 @@ Graduate and undergraduate students, postdocs, technicians, and research associa
 <li>Chubaty, A. M., Galpern, P., & Doctolero, S. C. (2020). The r toolbox grainscape for modelling and visualizing landscape connectivity using spatially explicit networks. *Methods in Ecology and Evolution*, *11*, 591–595. [Link](https://doi.org/10.1111/2041-210X.13350){target="_blank"} (@fig-chubaty2020)</li>
 
 ::: column-margin
-![@Chubaty2020 introduced [*grainscape*](https://cran.r-project.org/web/packages/grainscape/index.html), new R software for landscape connectivity modelling.  This team effort was led by visiting scientist Dr. Alex Chubaty and underwritten by lab undergraduate Sam Doctolero's breathtakingly efficient C++ code.](images/fig_chubaty2020.png){#fig-chubaty2020}
+![@Chubaty2020 introduced [*grainscape*](https://cran.r-project.org/web/packages/grainscape/index.html){target="_blank"}, new R software for landscape connectivity modelling.  This team effort was led by visiting scientist Dr. Alex Chubaty and underwritten by lab undergraduate Sam Doctolero's breathtakingly efficient C++ code.](images/fig_chubaty2020.png){#fig-chubaty2020}
 :::
 
 <li>Galpern, P., & Gavin, M. P. (2020). Assessing the potential to increase landscape complexity in Canadian prairie croplands: A multi-scale analysis of land use pattern. *Frontiers in Environmental Science*, *8*, 31. [Link](https://doi.org/10.3389/fenvs.2020.00031){target="_blank"}</li>

@@ -1,0 +1,20 @@
+---
+title: "Media page"
+lightbox: true
+format:
+  html:
+    toc: true      
+    toc-location: right
+---
+
+## In the news
+
+Links to news articles
+
+## Videos
+
+Links to various conference talks of lab members
+
+## Posters
+
+Links to PDFs of research posters given at conferences.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>A⋅B+C Lab - Biodiversity</title>
+<title>A+B⋅C Lab - Biodiversity</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -67,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="./images/abclab.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">A⋅B+C Lab</span>
+    <span class="navbar-title">A+B⋅C Lab</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -104,11 +124,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./media.qmd">
+    <a class="dropdown-item" href="./media.html">
  <span class="dropdown-text">Media</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./illustration.qmd">
+    <a class="dropdown-item" href="./illustration.html">
  <span class="dropdown-text">Illustration</span></a>
   </li>  
     </ul>
@@ -147,9 +167,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#monitoring-and-surveillance" id="toc-monitoring-and-surveillance" class="nav-link active" data-scroll-target="#monitoring-and-surveillance">Monitoring and surveillance</a></li>
+  <li><a href="#arthropod-ecosystem-services" id="toc-arthropod-ecosystem-services" class="nav-link" data-scroll-target="#arthropod-ecosystem-services">Arthropod ecosystem services</a></li>
+  <li><a href="#education-and-community-outreach" id="toc-education-and-community-outreach" class="nav-link" data-scroll-target="#education-and-community-outreach">Education and community outreach</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content page-columns page-full column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -158,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -170,25 +200,118 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/biodiversity_montage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) Bombus ternarius, a bumble bee of conservation concern, in Alberta. (Centre) Pterostichus melanarius, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC."><img src="images/biodiversity_montage.png" class="img-fluid figure-img" alt="Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) Bombus ternarius, a bumble bee of conservation concern, in Alberta. (Centre) Pterostichus melanarius, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC."></a></p>
-<figcaption>Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) <em>Bombus ternarius</em>, a bumble bee of conservation concern, in Alberta. (Centre) <em>Pterostichus melanarius</em>, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC.</figcaption>
+<div id="fig-biodiversity-montage" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-biodiversity-montage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/biodiversity_montage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="images/biodiversity_montage.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-biodiversity-montage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) <em>Bombus ternarius</em>, a bumble bee of conservation concern, in Alberta, Canada. (Centre) <em>Pterostichus melanarius</em>, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, British Columbia, Canada.
+</figcaption>
 </figure>
 </div>
-<p>We love insects! So little is known about so many species. We’re working hard to change this, close to home, in Alberta and B.C. Our team has sampled more than 350 species of bees and beetles at hundreds of sites. A major focus are the beneficial insects that provide ecosystem services such as pollination, and in agricultural systems, pest control and weed control.</p>
+<section id="monitoring-and-surveillance" class="level2 page-columns page-full">
+<h2 data-anchor-id="monitoring-and-surveillance">Monitoring and surveillance</h2>
+<p>We love insects! So little is known about so many species. We’re working hard to change this, close to home, in Alberta and British Columbia, Canada (<a href="#fig-biodiversity-montage" class="quarto-xref">Figure&nbsp;1</a>).</p>
+<p>A major focus are the beneficial insects that provide ecosystem services such as pollination, and in agricultural systems, pest control and weed control. Our team has sampled at hundreds of sites (<a href="#fig-beneficial-insects-surveillance" class="quarto-xref">Figure&nbsp;2</a>). Processing insect specimens is a common activity for undergraduate and graduate students in our lab (<a href="#fig-jars-processing" class="quarto-xref">Figure&nbsp;3</a>).</p>
+<div id="fig-beneficial-insects-surveillance" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-beneficial-insects-surveillance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/fig_beneficial-insects-surveillance.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="images/fig_beneficial-insects-surveillance.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-beneficial-insects-surveillance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Between 2015 and 2021 we sampled bees, beetles, hoverflies, spiders, and other arthropods at 335 cropland sites across Alberta, Canada, for a total sampling effort of ~9000 trap-weeks. From this haul we curated over 200,000 beneficial arthropod specimens. The bee collection alone is among the largest (by specimen count) in Canada. Many of these specimens were identified by taxonomists who have been visiting scientists in our lab like <a href="https://extension.oregonstate.edu/people/lincoln-best">bee expert Lincoln Best</a> and coleopterist Dr.&nbsp;Manoj Kandoth.
+</figcaption>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div id="fig-jars-processing" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-jars-processing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/fig-jars-processing.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3"><img src="images/fig-jars-processing.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-jars-processing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: From the field to the lab. Each jar represents a different sample, containing arthropods of many species. Our team starts by picking out taxa of interest, identifying and counting common species, and then pinning others. “Easy” species are identified by us, but we’re not taxonomists, so we often recruit outside help.
+</figcaption>
+</figure>
+</div>
+</div></div><p>This biodiversity data has appeared in many of our lab publications. For example, lab postdoc Dr.&nbsp;Abigail Cohen reported that the numerous semi-permanent wetlands in Alberta (known as “sloughs”) are important for several bumble bee species, but their importance varies across the growing season as different wildflowers that grow in their margins come into bloom <span class="citation" data-cites="Cohen2024">[<a href="#ref-Cohen2024" role="doc-biblioref">1</a>]</span>. A forthcoming paper, led by Dr.&nbsp;Cohen, based on this data, will show that various bee species in the region are at risk under changing climate conditions.</p>
+<p>Master’s student, Emily Purvis, investigated the reassembly of bee communities following restoration of grassland-wetland complexes <span class="citation" data-cites="Purvis2020">[<a href="#ref-Purvis2020" role="doc-biblioref">2</a>]</span> and which wildflowers support the greatest bee diversity <span class="citation" data-cites="Purvis2021">[<a href="#ref-Purvis2021" role="doc-biblioref">3</a>]</span>.</p>
+<p>PhD student, Dr.&nbsp;Danielle Clake, took our monitoring work to the Rockies and adjacent Selkirk Mountains, climbing 17 mountains three times each. One outcome of that effort was the identification of a new cryptic species of bumble bee using genomic methods, which she named <em>Bombus hibernus</em> <span class="citation" data-cites="Clake2024">[<a href="#ref-Clake2024" role="doc-biblioref">4</a>]</span>.</p>
+</section>
+<section id="arthropod-ecosystem-services" class="level2">
+<h2 data-anchor-id="arthropod-ecosystem-services">Arthropod ecosystem services</h2>
+<p>Content</p>
+</section>
+<section id="education-and-community-outreach" class="level2 page-columns page-full">
+<h2 data-anchor-id="education-and-community-outreach">Education and community outreach</h2>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div id="fig-bee-poster" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bee-poster-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/fig-bee-poster.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" data-glightbox="description: .lightbox-desc-4"><img src="images/fig-bee-poster.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bee-poster-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: An outreach poster of native bees from Alberta, Canada in the University of Calgary collections. This digital imaging project was a lab partnership with several groups on campus.
+</figcaption>
+</figure>
+</div>
+</div></div><p>We partnered with the library at the University of Calgary, in 2019, to create a <a href="https://digitalcollections.ucalgary.ca/Browse/Collections/Invertebrates/Alberta-Native-Bees" target="_blank">digital image database</a> of the bee diversity of Alberta. For this we drew on our lab’s bee collection, and high resolution photographic tools. The database contains more than 1000 images of bees and other arthropods, imaged by students in the lab or in entomology courses. We even made a poster of some of Alberta’s most colourful native bee species (<a href="#fig-bee-poster" class="quarto-xref">Figure&nbsp;4</a>). If you would like to print your own large-format poster, please download the high resolution PDF <a href="BeePoster_UniversityCalgary_2019.pdf" target="_blank">here</a>.</p>
+<p>Our outreach is ongoing. Trainees in the lab have visited schools in the city, and some of us participate on City of Calgary biodiversity committees.</p>
+<section id="funders" class="level3 unnumbered unlisted">
+<h3 class="unnumbered unlisted" data-anchor-id="funders">Funders</h3>
+<p>We thank the following funders for their support of our biodiversity research, since 2015 (in alphabetical order):</p>
+<ul>
+<li>Alberta Biodiversity Monitoring Institute</li>
+<li>Alberta Conservation Association</li>
+<li>Canadian Wildlife Service</li>
+<li>Ducks Unlimited Canada</li>
+<li>Mitacs</li>
+<li>Mellon Foundation / Libraries and Cultural Resources, University of Calgary</li>
+<li>North American Waterfowl Management Plan (AB)</li>
+<li>NSERC</li>
+</ul>
+</section>
+<section id="selected-publications-from-the-lab" class="level3 unnumbered unlisted ref-section">
+<h3 class="unnumbered unlisted" data-anchor-id="selected-publications-from-the-lab">Selected publications from the lab</h3>
+<p>See more of our biodiversity research publications <a href="./publications.html">here</a>.</p>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Cohen2024" class="csl-entry" role="listitem">
+[1] Cohen, A. L., Devries, J. H., &amp; Galpern, P. (2024). Wetland cover in agricultural landscapes is positively associated with bumblebee abundance. <em>Insect Conservation and Diversity</em>, <em>17</em>. <a href="https://doi.org/10.1111/icad.12701">https://doi.org/10.1111/icad.12701</a>
+</div>
+<div id="ref-Purvis2020" class="csl-entry" role="listitem">
+[2] Purvis, E. E. N., Vickruck, J. L., Best, L. R., Devries, J. H., &amp; Galpern, P. (2020). Wild bee community recovery in restored grassland-wetland complexes of prairie north america. <em>Biological Conservation</em>, <em>252</em>, 108829. <a href="https://doi.org/10.1016/j.biocon.2020.108829">https://doi.org/10.1016/j.biocon.2020.108829</a>
+</div>
+<div id="ref-Purvis2021" class="csl-entry" role="listitem">
+[3] Purvis, E. E. N., Best, L. R., &amp; Galpern, P. (2021). Identifying key forage plants to support wild bee diversity and a species at risk in the prairie pothole region. <em>Insect Conservation and Diversity</em>, <em>14</em>, 851–861. <a href="https://doi.org/10.1111/icad.12524">https://doi.org/10.1111/icad.12524</a>
+</div>
+<div id="ref-Clake2024" class="csl-entry" role="listitem">
+[4] Clake, D. J., Rogers, S. M., &amp; Galpern, P. (2024). Cryptic genotypic and phenotypic diversity in parapatric bumble bee populations associated with minimum cold temperatures. <em>Biodiversity and Conservation</em>, <em>33</em>. <a href="https://doi.org/10.1007/s10531-023-02753-1">https://doi.org/10.1007/s10531-023-02753-1</a>
+</div>
+</div>
+<section id="keywords" class="level5 unnumbered unlisted">
+<h5 class="unnumbered unlisted" data-anchor-id="keywords">Keywords</h5>
+<p>arthropods; bees; beetles; biodiversity monitoring; ecosystem services; pest regulation; pollination; urban biodiversity; weed control; wildflowers;</p>
+</section>
+</section>
 
 
 <div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) <em>Bombus ternarius</em>, a bumble bee of conservation concern, in Alberta. (Centre) <em>Pterostichus melanarius</em>, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC.</span>
+<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;1: Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) <em>Bombus ternarius</em>, a bumble bee of conservation concern, in Alberta, Canada. (Centre) <em>Pterostichus melanarius</em>, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, British Columbia, Canada.</span>
+<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;2: Between 2015 and 2021 we sampled bees, beetles, hoverflies, spiders, and other arthropods at 335 cropland sites across Alberta, Canada, for a total sampling effort of ~9000 trap-weeks. From this haul we curated over 200,000 beneficial arthropod specimens. The bee collection alone is among the largest (by specimen count) in Canada. Many of these specimens were identified by taxonomists who have been visiting scientists in our lab like <a href="https://extension.oregonstate.edu/people/lincoln-best">bee expert Lincoln Best</a> and coleopterist Dr.&nbsp;Manoj Kandoth.</span>
+<span class="glightbox-desc lightbox-desc-3">Figure&nbsp;3: From the field to the lab. Each jar represents a different sample, containing arthropods of many species. Our team starts by picking out taxa of interest, identifying and counting common species, and then pinning others. “Easy” species are identified by us, but we’re not taxonomists, so we often recruit outside help.</span>
+<span class="glightbox-desc lightbox-desc-4">Figure&nbsp;4: An outreach poster of native bees from Alberta, Canada in the University of Calgary collections. This digital imaging project was a lab partnership with several groups on campus.</span>
 </div>
+</section>
 
 <div style="font-size: 0.8rem; margin-top: 5rem; border-top: 1px solid lightgrey; 
 border-bottom: 1px solid lightgrey; line-height: 0.95rem; padding: 0.5rem;">
-The A⋅B+C Lab is a collective project of <a href="https://profiles.ucalgary.ca/paul-galpern">Dr.&nbsp;Paul Galpern</a>, <a href="https://profiles.ucalgary.ca/mindi-summers">Dr.&nbsp;Mindi Summers</a>, and their students and trainees at University of Calgary, Alberta, Canada.<br>
+The A+B⋅C Lab is a collective project of <a href="./pgalpern.html">Dr.&nbsp;Paul Galpern</a>, <a href="./msummers.html">Dr.&nbsp;Mindi Summers</a>, and their students and trainees at University of Calgary, Alberta, Canada.<br>
 
 <div style="font-size: 0.6rem; margin-top: 0.5rem; line-height: 0.7rem;">
-Image content created by past or present lab members is credited; other images are licensed or are in the public domain; Lab logo and beetle line drawing by Tobyn Neame; Last content update: May 2024
+Image content created by past or present lab members is credited; other images are licensed or are in the public domain; Lab logo and beetle line drawing by Tobyn Neame; Built with Quarto; Last content update: May 2024
 </div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -594,7 +717,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

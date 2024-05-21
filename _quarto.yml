@@ -3,19 +3,20 @@ project:
   output-dir: "."
 
 website:
-  title: "A⋅B+C Lab"
+  title: "A+B⋅C Lab"
   search: false
   body-footer: |
   
     <div style="font-size: 0.8rem; margin-top: 5rem; border-top: 1px solid lightgrey; 
     border-bottom: 1px solid lightgrey; line-height: 0.95rem; padding: 0.5rem;">
-    The A⋅B+C Lab is a collective project of 
-    [Dr. Paul Galpern](https://profiles.ucalgary.ca/paul-galpern), 
-    [Dr. Mindi Summers](https://profiles.ucalgary.ca/mindi-summers), 
+    The A+B⋅C Lab is a collective project of 
+    [Dr. Paul Galpern](pgalpern.qmd), 
+    [Dr. Mindi Summers](msummers.qmd), 
     and their students and trainees at University of Calgary, Alberta, Canada.  
     <div style="font-size: 0.6rem; margin-top: 0.5rem; line-height: 0.7rem;">Image content 
     created by  past or present lab members is credited; other images are licensed or are in 
-    the public domain;  Lab logo and beetle line drawing by Tobyn Neame; Last content update:  May 2024</div></div>
+    the public domain;  Lab logo and beetle line drawing by Tobyn Neame; Built with Quarto; 
+    Last content update:  May 2024</div></div>
   navbar:
     logo: /images/abclab.png
     #background: info
@@ -72,5 +73,7 @@ format:
 
 
 editor: visual
+execute:
+  enabled: true
 
 

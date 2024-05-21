@@ -1,53 +1,101 @@
 ---
 title: "Agriculture"         
-lightbox: true 
+lightbox: true
 format:
   html:
-    toc: true
+    toc: true      
     toc-location: right
 bibliography: abclab.bib
 link-citations: true
-csl: apa-annotated-bibliography.csl
---- 
+csl: apa-numeric-superscript-brackets.csl
+---
 
 ![Making fields messier (left and right), and co-locating renewable energy generation with pasture (centre) are examples of the lab's agricultural sustainability research.](images/agriculture_montage.png){#fig-agriculture-montage}
 
-## The challenge {style="margin-top: 1rem;"}
+## The challenge
 
 ##### Sustainable intensification of agriculture in the Canadian Prairies
 
-Our research is animated by the possibility that small changes to management in Canadian Prairie croplands (@fig-prairie-crops) could lead to *win-win-wins* (i.e., mutually beneficial solutions for food production, biodiversity and climate). 
-
-::: column-margin
-![Annual crop fields (yellow) cover a footprint of \~500,000 km^2^ in the Canadian Prairie provinces of Alberta (AB), Saskatchewan (SK) and Manitoba (MB). That's the same as covering France with only canola, wheat, barley and peas (and a few other crops). Achieving sustainable intensification across this vast region is a globally-significant challenge.](images/prairie_crops.png){#fig-prairie-crops}
-::: 
-
-::: {.callout-tip appearance="simple" icon=false}
-[Why sustainable intensification?]{style="font-weight: 900;"} Finding ways to use less land to produce more food has received international recognition as a critical challenge to combat the climate crisis and safeguard biodiversity, while ensuring food security for all.
+::: {.callout-tip icon="false" title="Why sustainable intensification?"}
+Finding ways to use less land to produce more food has received international recognition as a critical challenge to combat the climate crisis and safeguard biodiversity, while ensuring food security for all.
 :::
 
-For example, we could make fields messier, by restoring or retaining perennial non-crop vegetation (@fig-agriculture-montage; left and right). Patches of vegetation like these supply ecosystem services to agriculture, and serve as habitats for biodiversity, potentially improving crop yields in neighbouring fields.
+Our research is animated by the possibility that small changes to management in Canadian Prairie croplands (@fig-prairie-crops) could lead to *win-win-wins* (i.e., mutually beneficial solutions for food production, biodiversity and climate).
 
-Or, as our [Prairie Precision Sustainability Network](https://www.prairiepsn.ca) investigates, we can help farmers identify small parcels of low productivity land to remove from production, increasing profitability for the farmer, and creating new habitat and carbon sequestration opportunities when that land is restored in perennial plants.
+::: {.column-margin}
+![Annual crop fields (yellow) cover a footprint of \~500,000 km^2^ in the Canadian Prairie provinces of Alberta (AB), Saskatchewan (SK) and Manitoba (MB). That's the same as covering France with only canola, wheat, barley and peas (and a few other crops). Achieving sustainable intensification across this vast region is a globally-significant challenge.](images/prairie_crops.png){#fig-prairie-crops}
+:::
 
-Agrivoltaics is another exciting project in our lab. Co-locating cattle ranching with solar panels in small arrays (\< 5 ha) helps to decarbonize our energy supply, and could have benefits for forage quality, soil health, and ecosystem services. In other words, maintaining food production while reducing impact.
+For example, we could [make fields messier]{.textual-bold}, by restoring or retaining perennial non-crop vegetation (@fig-agriculture-montage; left and right). Patches of vegetation like these supply ecosystem services to agriculture, and serve as habitats for biodiversity, potentially improving crop yields in neighbouring fields.
 
+Or, as our [Prairie Precision Sustainability Network](https://www.prairiepsn.ca){.textual_bold target="_blank"} investigates, we can help farmers identify small parcels of low productivity [marginal land]{.textual-bold} that they can stop cultivating, increasing profitability, and creating new habitat and carbon sequestration opportunities when that land is restored in perennial plants.
+
+[Agrivoltaics]{.textual-bold} is another exciting project in our lab. Co-locating cattle ranching with solar panels in small arrays (\< 5 ha) helps to decarbonize our energy supply, and could have benefits for forage quality, soil health, and ecosystem services. In other words, maintaining food production while reducing impact.
 
 ## Messy fields
 
-Here's out how you would link something [@Galpern2020]
+Our lab has shown that *"mess"* (e.g., perennial and non-crop vegetation near crop fields) offers a measurable benefit by boosting yields [@Galpern2020; @Nguyen2022; @Robinson2022], and by providing ecosystem services to crops. We found that these naturalized habitats host beneficial insects that move into the crop and supply services such as pest regulation, pollination and weed control (for more, see [Biodiversity projects](projects_biodiversity.qmd)).
 
-## Project
+::: column-margin
+![A yield halo effect: a small increase in yield observable about 10 m to 75 m away from the field edge. We have shown this effect in several papers using different types of data (insurance @Galpern2020, precision yield @Robinson2022, satellite imagery/machine learning @Nguyen2022). These findings are important, not because the halo is worth a lot of money (it's not), but because they demonstrate non-crop patches can, under certain conditions, have a positive effect on crops.](images/halo_effect.png){#fig-halo-effect}
+:::
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.
+We have also reported that canola yield surrounding messy patches can be higher. We have called this the *halo effect* (@fig-halo-effect). It is small, and not usually visible to the eye, requiring analysis of data to show that it is present [@Robinson2022; @Nguyen2022; @Nguyen2022b]. Its cause remains an open question, but it may depend, in part, on soil moisture, the type of adjacent vegetation, and the abundance of bees, beetles and other beneficials hosted there.
 
-## Publications
+[What's next?]{.textual-bold} We want to learn more about the halo effect. We're just starting this journey. For example, how do moisture, vegetation type, patch size, arthropod ecosystem services, and soil fertility interact to create yield haloes? Wetlands and their vegetated margins are of particular interest. Can we value their contribution to crop yield as part of ecosystem service assessments?
+
+## Marginal areas
+
+How can we make fields messier? Farmers may seed parts of their fields year after year and find that these acres, perhaps due to soil conditions, produce too little yield to offset their input costs (like the seeds, fertilizer, herbicides, etc.).
+
+What if these areas were restored to perennial vegetation? Perenniality is a nature-based solution (NbS) for reducing greenhouse gases. When the land being converted is marginally profitable, it may may save the farmer money to stop seeding it. Messy places can also be habitats for biodiversity and supply many ecosystem services. Restoring marginal areas could therefore help rewild the Canadian Prairies while supporting climate objectives and (critically for implementation) improve the farmer's bottom line.
+
+::: column-margin
+![The [Prairie Precision Sustainability Network](https://prairiepsn.ca/){target="_blank"} collaborates with farmers to map marginal areas in crop fields across three prairie provinces. This prototype map illustrates the kinds of decision-support tools we are designing to help farmers make their fields messier.](images/ppsn_infographic.png){#fig-ppsn}
+:::
+
+We've been working hard with our [PPSN](https://prairiepsn.ca){target="_blank"} research network colleagues (@fig-ppsn) to bring together precision yield, satellite imagery, and economic data to identify parts of fields that have multi-annual net-negative profitability. Thanks to data from over 70 farmers in Alberta, Saskatchewan and Manitoba, we've built a tool that farmers can use to help them visualize the marginally-profitable parts of their fields.
+
+[What's next?]{.textual-bold} We're going to work with farmers in the three prairie provinces to make fields messier (i.e., by restoring marginal areas to perennials). More on these exciting next steps very soon!
+
+## Agrivoltaics
+
+::: {.callout-tip icon="false" title="What is agrivoltaics (AV)?"}
+It is a novel way of combining solar photovoltaic systems and agricultural activities on the same land. This can help resolve the land use conflicts that may occur when solar projects compete with farmland. AV can also offset emissions from greenhouse gas (GHG) electrical generating facilities and enhance or sustain agricultural productivity. Alberta, Canada is a suitable location for this AV approach, as it has abundant pastureland and high solar generation potential.
+:::
+
+::: column-margin
+![How AI imagines our Agrivoltaics Research Park (Adobe Generative AI). It is scheduled for construction at the University of Calgary's working cattle ranch (W.A. Ranches) in 2025. This 10 ha co-location of bifacial solar panels and cattle pasture is a collaboration with [Solartility](https://www.solartility.ca/agrivoltaics/).](images/agrivoltaics_ai_cropped.png){#fig-agrivoltaics-ai}
+:::
+
+Working with [Solartility](https://www.solartility.ca/agrivoltaics/){target="_blank"} we're creating an [Agrivoltaics Research Park](https://ucalgary.ca/news/moo-ve-over-theres-exciting-new-solar-project-town){target="_blank"} at University of Calgary's W.A. Ranches. It will occupy less than 10 ha of land, have bifacial upright panels, and cattle will graze beneath the panels. A distributed network of these small footprint facilities could go a long way to reducing the carbon exposure of the electrical grid. AI thinks the site will look something like this (@fig-agrivoltaics-ai). We'll have real pictures after the site is operating in 2025.
+
+[What's next?]{.textual-bold} The A+B⋅C Lab will lead the long-term environmental monitoring at this facility, researching the agricultural and environmental risks and benefits of constructing these facilities. Aligned with our agricultural sustainability theme, we will ask whether beef cattle agrivoltaics can be mutually beneficial for rancher livelihoods and for climate while minimizing impacts on the ranch environment.
 
 ### Funders {.unnumbered .unlisted}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.
+We thank the following funders for their support of our agricultural sustainability research, since 2015 (in alphabetical order):
 
-### Keywords {.unnumbered .unlisted}
+-   Alberta Conservation Association
+-   Alberta Innovates
+-   Alberta Canola
+-   Ducks Unlimited Canada
+-   Environment and Climate Change Canada
+-   Manitoba Canola Growers
+-   Mitacs
+-   NSERC
+-   SaskCanola
+-   Solartility
 
-::: {style="display: none;" #refs}
+::: ref-section
+### Selected Publications from the lab {.unnumbered .unlisted}
+
+See more of our agricultural research publications [here](publications.qmd).
+
+::: {#refs}
+:::
+
+##### Keywords {.unnumbered .unlisted}
+
+agricultural landscape ecology; agricultural sustainability; agrivoltaics; agronomy; Canadian Prairies; ecosystem services; greenhouse gases; machine learning; perenniality; precision agriculture; remote sensing; rewilding.
 :::

@@ -1,0 +1,10 @@
+---
+title: "Illustrations"
+lightbox: true
+format:
+  html:
+    toc: true      
+    toc-location: right
+---
+
+What a visually skilled lab we are. Photographs, drawings, and other visualizations of data done by lab members that are interesting and striking.

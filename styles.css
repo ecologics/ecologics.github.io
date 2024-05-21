@@ -6,15 +6,23 @@
     font-size: 1.25rem; /* Adjust the value as needed */
 }
 
+
+.textual-bold {
+  font-weight: 900;
+  color:black;
+}
+
+.callout-title-container {
+  font-weight: 900;
+  color: black;
+}
+
+
 .trainee-highlight {
   font-weight: 900;
   color: red;
 }
 
-.pi-highlight {
-  font-weight: 900;
-  color: black;
-}
 
 .responsive-normal {
   display: none;
@@ -38,6 +46,19 @@
   .responsive-small {
     display: none;
   }
+  
+  .responsive-ref-section {
+    display: none;
+  }
+  
+  .column-margin .quarto-float-caption-bottom {
+    margin-bottom: 5rem;
+}
+
+}
+
+.ref-section {
+  font-size: 0.75rem;
 }
 
 @media (max-width: 767px) {
@@ -63,6 +84,10 @@
   figcaption {
     line-height: 1.2em;
   }
+  
+  .publications .column-margin .quarto-float-caption-bottom {
+    margin-bottom: 5rem;
+}
 
 }
 

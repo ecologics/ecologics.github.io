@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Apply PI highlighting
         wordsToHighlightPI.forEach(function(word) {
             var regex = new RegExp('\\b' + word + '\\b', 'g');
-            html = html.replace(regex, '<span class="pi-highlight">' + word + '</span>');
+            html = html.replace(regex, '<span class="textual-bold">' + word + '</span>');
         });
 
         li.innerHTML = html;

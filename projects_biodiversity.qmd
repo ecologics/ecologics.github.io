@@ -1,8 +1,70 @@
 ---
 title: "Biodiversity"         
-lightbox: true 
+lightbox: true
+format:
+  html:
+    toc: true      
+    toc-location: right
+bibliography: abclab.bib
+link-citations: true
+csl: apa-numeric-superscript-brackets.csl
 ---
 
-![Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) *Bombus ternarius*, a bumble bee of conservation concern, in Alberta. (Centre) *Pterostichus melanarius*, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, BC.](images/biodiversity_montage.png)
+![Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) *Bombus ternarius*, a bumble bee of conservation concern, in Alberta, Canada. (Centre) *Pterostichus melanarius*, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, British Columbia, Canada.](images/biodiversity_montage.png){#fig-biodiversity-montage}
 
-We love insects! So little is known about so many species. We're working hard to change this, close to home, in Alberta and B.C. Our team has sampled more than 350 species of bees and beetles at hundreds of sites. A major focus are the beneficial insects that provide ecosystem services such as pollination, and in agricultural systems, pest control and weed control.
+## Monitoring and surveillance
+
+We love insects! So little is known about so many species. We're working hard to change this, close to home, in Alberta and British Columbia, Canada (@fig-biodiversity-montage). 
+
+A major focus are the beneficial insects that provide ecosystem services such as pollination, and in agricultural systems, pest control and weed control. Our team has sampled at hundreds of sites (@fig-beneficial-insects-surveillance). Processing insect specimens is a common activity for undergraduate and graduate students in our lab (@fig-jars-processing).
+
+![Between 2015 and 2021 we sampled bees, beetles, hoverflies, spiders, and other arthropods at 335 cropland sites across Alberta, Canada, for a total sampling effort of ~9000 trap-weeks. From this haul we curated over 200,000 beneficial arthropod specimens. The bee collection alone is among the largest (by specimen count) in Canada. Many of these specimens were identified by taxonomists who have been visiting scientists in our lab like [bee expert Lincoln Best](https://extension.oregonstate.edu/people/lincoln-best) and coleopterist Dr. Manoj Kandoth.](images/fig_beneficial-insects-surveillance.png){#fig-beneficial-insects-surveillance}
+
+::: {.column-margin}
+![From the field to the lab. Each jar represents a different sample, containing arthropods of many species. Our team starts by picking out taxa of interest,  identifying and counting common species, and then pinning others. "Easy" species are identified by us, but we're not taxonomists, so we often recruit outside help.](images/fig-jars-processing.png){#fig-jars-processing}
+:::
+This biodiversity data has appeared in many of our lab publications. For example, lab postdoc Dr. Abigail Cohen reported that the numerous semi-permanent wetlands in Alberta (known as "sloughs") are important for several bumble bee species, but their importance varies across the growing season as different wildflowers that grow in their margins come into bloom [@Cohen2024].  A forthcoming paper, led by Dr. Cohen, based on this data, will show that various bee species in the region are at risk under changing climate conditions. 
+
+Master's student, Emily Purvis, investigated the reassembly of bee communities following restoration of grassland-wetland complexes [@Purvis2020] and which wildflowers support the greatest bee diversity [@Purvis2021].
+
+PhD student, Dr. Danielle Clake, took our monitoring work to the Rockies and adjacent Selkirk Mountains, climbing 17 mountains three times each. One outcome of that effort was the identification of a new cryptic species of bumble bee using genomic methods, which she named *Bombus hibernus* [@Clake2024].
+
+## Arthropod ecosystem services
+
+Content
+
+## Education and community outreach
+
+::: {.column-margin}
+![An outreach poster of native bees from Alberta, Canada in the University of Calgary collections. This digital imaging project was a lab partnership with several groups on campus.](images/fig-bee-poster.png){#fig-bee-poster}
+:::
+
+We partnered with the library at the University of Calgary, in 2019, to create a [digital image database](https://digitalcollections.ucalgary.ca/Browse/Collections/Invertebrates/Alberta-Native-Bees){target="_blank"} of the bee diversity of Alberta. For this we drew on our lab's bee collection, and high resolution photographic tools. The database contains more than 1000 images of bees and other arthropods, imaged by students in the lab or in entomology courses. We even made a poster of some of Alberta's most colourful native bee species (@fig-bee-poster). If you would like to print your own large-format poster, please download the high resolution PDF [here](BeePoster_UniversityCalgary_2019.pdf){target="_blank"}.
+
+Our outreach is ongoing. Trainees in the lab have visited schools in the city, and some of us participate on City of Calgary biodiversity committees.
+
+### Funders {.unnumbered .unlisted}
+
+We thank the following funders for their support of our biodiversity research, since 2015 (in alphabetical order):
+
+-   Alberta Biodiversity Monitoring Institute
+-   Alberta Conservation Association
+-   Canadian Wildlife Service
+-   Ducks Unlimited Canada
+-   Mitacs
+-   Mellon Foundation / Libraries and Cultural Resources, University of Calgary
+-   North American Waterfowl Management Plan (AB)
+-   NSERC
+
+::: ref-section
+### Selected publications from the lab {.unnumbered .unlisted}
+
+See more of our biodiversity research publications [here](publications.qmd).
+
+::: {#refs}
+:::
+
+##### Keywords {.unnumbered .unlisted}
+
+arthropods; bees; beetles; biodiversity monitoring; ecosystem services; pest regulation; pollination; urban biodiversity; weed control; wildflowers;
+:::
