@@ -27,11 +27,23 @@ This biodiversity data has appeared in many of our lab publications. For example
 
 Master's student, Emily Purvis, investigated the reassembly of bee communities following restoration of grassland-wetland complexes [@Purvis2020] and which wildflowers support the greatest bee diversity [@Purvis2021].
 
-PhD student, Dr. Danielle Clake, took our monitoring work to the Rockies and adjacent Selkirk Mountains, climbing 17 mountains three times each. One outcome of that effort was the identification of a new cryptic species of bumble bee using genomic methods, which she named *Bombus hibernus* [@Clake2024].
+PhD student, Dr. Danielle Clake, took our monitoring work to the Rockies and adjacent Selkirk Mountains, climbing 17 mountains three times each. One outcome of that effort was the identification of a new cryptic species of bumble bee using genomic methods. Danielle named the new species *Bombus hibernus* [@Clake2024].
 
 ## Arthropod ecosystem services
 
-Content
+::: {.callout-tip icon="false" title="What are ecosystem services?"}
+These are nature's contribution to people.  Pollination, pest regulation and weed control are examples of ecosystem services where beneficial insects and arthropods play an outsized role.
+:::
+
+::: {.column-margin}
+![Wetlands, or non-crop vegetation patches provide habitat for beneficial insects that provide ecosystem services, we have shown. By sampling at various distances into the field we have demonstrated spill-over effects from these features into fields, bringing pollinators, pest regulation, and weed control ecosystem services closer to the crop.](images/fig-spillover.png){#fig-spillover}
+:::
+
+Lab personnel have shown that non-crop vegetation near fields provides habitat for pollinators (nesting places, flowers for forage), and for the natural enemies of crop pests. Ppostdoc, Dr. Jess Vickruck's, in a well-cited 2019 study showed that native bees are more abundant closer to wetland margins (@Vickruck2019), where they spillover (@fig-spillover) into crops. There they can supply pollination services to flowering crops, such as canola and alfalfa. Dr. Sam Robinson, also a postdoc, discovered that beetles and other predatory arthropods move into and out of these habitats across the growing season, bringing them closer to where their service is needed.
+
+Spillover has been a popular research topic for us. Master's student Tobyn Neame has shown that predation frequency (as measured by sentinel prey caterpillars; @fig-sentinel-prey) is higher closer to non-crop vegetation (@Neame2024a), and that larger beetles are found further away from field edges (@Neame2024b), suggesting that the body size trait influences the spillover distance. Canola pests, at least late in the season, do not spillover, as reported by lab undergraduate Rebecca Innes (@Innes2024).
+
+[What next?]{.textual-bold} What about weed control? Many beetles are seed-eaters, and this ecosystem service could be mediated by proximity to non-crop vegetation. Can we generalize beyond the species to their functional traits to articulate the mechanisms of ecosystem service supply? Answering this second question is essential to transcend the regional species assemblages and achieve a global understanding of mechanisms connecting insect biodiversity and ecosystem services.
 
 ## Education and community outreach
 
