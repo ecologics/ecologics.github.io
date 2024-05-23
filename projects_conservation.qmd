@@ -1,8 +1,86 @@
 ---
 title: "Conservation"         
-lightbox: true 
+lightbox: true
+format:
+  html:
+    toc: true      
+    toc-location: right
+bibliography: abclab.bib
+link-citations: true
+csl: apa-numeric-superscript-brackets.csl
 ---
 
-![Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.](images/conservation_montage.png)
+![We study theory, methods, and applications of conservation at broad scales. Our focus is on Canadian Prairie agricultural landscapes (left), on mountain landscapes of Alberta and adjacent British Columbia (centre), and on urban landscapes in the City of Calgary, Alberta (right).](images/conservation_montage.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec nunc tincidunt vestibulum. Nullam euismod, justo vel bibendum venenatis, odio libero cursus justo, id aliquet libero felis a libero.
+## Landscape ecology
+
+We conduct fundamental and methodological research in conservation through the lens of landscape ecology. Here are some examples:
+
+:::{.column-margin}
+![Locations of the 17 mountains former PhD student Dr. Danielle Clake climbed three times each. Bumble bee data collected at many of these is featured in [@Clake2022]. The locations of sampling were selected *a priori* to create a gradient in land cover.](images/fig-danielle-map-mountains.png){#fig-danielle-map-mountains}
+:::
+
+- [Landscape complementation:]{.textual-bold} PhD student Dr. Danielle Clake found that bumble bee species were more abundant at Rocky Mountain sites (@fig-danielle-map-mountains) when both forest for nesting, and meadows with wildflowers for foraging, were in close proximity [@Clake2022].
+
+::: {.column-margin}
+![The design of our landscape pseudo-experiment where we identified 146 sites in Alberta croplands *a priori* across two gradients of complexity (patch richness, and contagion), and sampled bees at each for two years. We analyzed results for 213 wild bee taxa [@Galpern2021].](/images/fig-bee-pseudoexperiment.png){#fig-bee-pseudoexperiment}
+:::
+
+- [Landscape complexity:]{.textual-bold} We found, using a highly-replicated landscape "pseudo-experiment" (@fig-bee-pseudoexperiment), as expected, that locations with greater land cover heterogeneity support greater bee diversity. However, species differed dramatically in their numerical responses to land cover. We also found that time of year matters much more than landscape [@Galpern2021]. 
+
+  - We also developed an "onion skinning" method that uses functional regression to describe landscape complexity (@fig-onion-skinning). We used this to report locations in Alberta where increasing it might be most feasible [@Galpern2020b].  
+
+::: {.column-margin}
+![We introduced the method of *onion-skinning* in [@Galpern2020b]. Landscape complexity at a focal location (white) is a vector of values representing proportional land covers in multiple annuli of different sizes. The resulting data is analyzed using a technique called function-on-scalar regression.](/images/fig-onion-skinning.png){#fig-onion-skinning}
+:::
+
+- [Landscape connectivity:]{.textual-bold} Whether organisms can move or disperse without resistance across landscapes has been the subject of several methods and applications papers by Paul Galpern (e.g., in 2012; [@Galpern2012]). More recently, in 2020, visiting scientist Dr. Alex Chubaty and BSc student (and whiz C++ programmer) Sam Doctolero, led the development of the [grainscape package for R](https://cran.r-project.org/web/packages/grainscape/index.html){target="_blank"} which models landscape connectivity by combining discrete patches and resistance surfaces [@Chubaty2020]
+
+- [Landscape genomics:]{.textual-bold} The DNA of organisms can sometimes capture the fingerprints of landscape connectivity when it reduces gene flow. Most recently Dr. Danielle Clake has led the lab in this regard (@fig-gene-flow-elevation), studying gene flow of bumble bees across elevation in her [PhD thesis](https://dx.doi.org/10.11575/PRISM/dspace/41401){target="_blank"}.
+
+  - Our earlier methodological work in landscape genomics (2014) led to the development of the [MEMGENE package for R](https://cran.r-project.org/web/packages/memgene/index.html){target="_blank"}, software for the detection of spatial patterns in genetic relationships across landscapes.  MEMGENE [@Galpern2014] has been used in dozens of published conservation studies internationally.
+
+::: {.column-margin}
+![A [landscape genomics]{.textual-bold} hypothesis for how differences in elevation and separation in geographic distance may collectively influence gene flow. This emerges in the genetic similarity of individual bumble bees, which for illustration purposes are shown using a colour gradient. Tested in Dr. Danielle Clake's PhD thesis.](/images/fig-gene-flow-elevation.png){#fig-gene-flow-elevation}
+:::
+
+## Climate and conservation
+
+Implications of the climate crisis for conservation have been been a theme in the lab for a while, notably punctuated by a 2015 paper on bumble bees and climate change in *Science* [@Kerr2015]. 
+
+::: grid
+::: g-col-4
+![Camas (*Camassia quamash*) in BC.](images/fig-camas.png){width="150px" #fig-camas}
+:::
+::: g-col-8
+Recently, MSc student Rowan Rampton completed a thesis on plant-pollinator interactions, exploring the implications of [phenological mismatch]{.textual-bold} between camas, a plant of conservation concern (@fig-camas) and its bee pollinators. He used an elevational gradient in the Kootenays, British Columbia as a proxy for the phenological changes that are expected under climate change. He found no evidence spring timing is affecting camas seed production.
+:::
+:::
+
+## Urban landscapes
+
+A past focus for our urban work has been applications of [smartphone GPS location histories]{.textual-bold} collected from student participants. One paper using these data was led by postdoc Dr. Andrew Ladle, who applied resource selection functions, a type of logistic regression used to study wildlife, to study how people use of urban parks [@Ladle2018]. This method may have other applications in conservation, related to the establishment of protected areas. 
+
+Lab PhD student Dr. Angie Rout also completed a transdisciplinary thesis in computer science and urban planning using these smartphone GPS data (e.g., [@Rout2021]).
+
+### Funders {.unnumbered .unlisted}
+We thank the following funders for their support of our conservation research, since 2015 (in alphabetical order):
+
+-   Alberta Conservation Association
+-   Mitacs
+-   NSERC
+-   Kootenay Native Plant Society
+-   SSHRC
+
+::: ref-section
+### Selected Publications from the lab {.unnumbered .unlisted}
+
+See more of our conservation research publications [here](publications.qmd).
+
+::: {#refs}
+:::
+
+##### Keywords {.unnumbered .unlisted}
+
+ccommunity ecology; community science; geographic information systems; landscape complexity; landscape connectivity; landscape ecology; landscape genetics; ecological networks; parks and protected areas; phenological mismatch; plant-pollinator interactions; resource selection functions; statistical modelling; transdisciplinarity;
+:::

@@ -10,24 +10,33 @@ link-citations: true
 csl: apa-numeric-superscript-brackets.csl
 ---
 
-![Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) *Bombus ternarius*, a bumble bee of conservation concern, in Alberta, Canada. (Centre) *Pterostichus melanarius*, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, British Columbia, Canada.](images/biodiversity_montage.png){#fig-biodiversity-montage}
+![Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) *Bombus terricola*, a bumble bee of conservation concern, in Alberta, Canada. (Centre) *Pterostichus melanarius*, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, British Columbia, Canada.](images/biodiversity_montage.png){#fig-biodiversity-montage}
 
 ## Monitoring and surveillance
 
-We love insects! So little is known about so many species. We're working hard to change this, close to home, in Alberta and British Columbia, Canada (@fig-biodiversity-montage). 
+We love insects! (See @fig-biodiversity-montage). So little is known about so many species. Our lab is working hard to change this, close to home, in Alberta and British Columbia, Canada. 
 
-A major focus are the beneficial insects that provide ecosystem services such as pollination, and in agricultural systems, pest control and weed control. Our team has sampled at hundreds of sites (@fig-beneficial-insects-surveillance). Processing insect specimens is a common activity for undergraduate and graduate students in our lab (@fig-jars-processing).
+A major focus are the beneficial insects that provide ecosystem services. Our team has sampled at hundreds of sites (@fig-beneficial-insects-surveillance). Back at the lab, sample processing (like this; @fig-jars-processing), followed by pinning specimens (like this; @fig-insect-sample-wetland) is a common activity for our undergraduate and graduate students.
 
-![Between 2015 and 2021 we sampled bees, beetles, hoverflies, spiders, and other arthropods at 335 cropland sites across Alberta, Canada, for a total sampling effort of ~9000 trap-weeks. From this haul we curated over 200,000 beneficial arthropod specimens. The bee collection alone is among the largest (by specimen count) in Canada. Many of these specimens were identified by taxonomists who have been visiting scientists in our lab like [bee expert Lincoln Best](https://extension.oregonstate.edu/people/lincoln-best) and coleopterist Dr. Manoj Kandoth.](images/fig_beneficial-insects-surveillance.png){#fig-beneficial-insects-surveillance}
+![Between 2015 and 2021 the lab sampled bees, beetles, hoverflies, spiders, and other arthropods at 335 cropland sites across Alberta, Canada, for a total sampling effort of ~9000 trap-weeks. We curated over 200,000 beneficial arthropod specimens from this haul. The bee collection alone is among the largest (by specimen count) in Canada. Many specimens were identified by "visiting" taxonomists like [bee expert Lincoln Best](https://extension.oregonstate.edu/people/lincoln-best) and coleopterist Dr. Manoj Kandoth.](images/fig_beneficial-insects-surveillance.png){#fig-beneficial-insects-surveillance}
 
 ::: {.column-margin}
-![From the field to the lab. Each jar represents a different sample, containing arthropods of many species. Our team starts by picking out taxa of interest,  identifying and counting common species, and then pinning others. "Easy" species are identified by us, but we're not taxonomists, so we often recruit outside help.](images/fig-jars-processing.png){#fig-jars-processing}
+![From the field to the lab. Each jar represents a different sample, containing arthropods of many species.](images/fig-jars-processing.png){#fig-jars-processing}
 :::
-This biodiversity data has appeared in many of our lab publications. For example, lab postdoc Dr. Abigail Cohen reported that the numerous semi-permanent wetlands in Alberta (known as "sloughs") are important for several bumble bee species, but their importance varies across the growing season as different wildflowers that grow in their margins come into bloom [@Cohen2024].  A forthcoming paper, led by Dr. Cohen, based on this data, will show that various bee species in the region are at risk under changing climate conditions. 
 
-Master's student, Emily Purvis, investigated the reassembly of bee communities following restoration of grassland-wetland complexes [@Purvis2020] and which wildflowers support the greatest bee diversity [@Purvis2021].
+Biodiversity data are the basis of many recent lab [publications](publications.qmd). For example:
 
-PhD student, Dr. Danielle Clake, took our monitoring work to the Rockies and adjacent Selkirk Mountains, climbing 17 mountains three times each. One outcome of that effort was the identification of a new cryptic species of bumble bee using genomic methods. Danielle named the new species *Bombus hibernus* [@Clake2024].
+- Postdoc Dr. Abigail Cohen reported that wetlands found in the Canadian Prairies (known as "sloughs") are important for several bumble bee species, particularly when wildflowers growing in their margins come into bloom [@Cohen2024].  
+
+- Another of Abigail's forthcoming papers will explore risks to bees and beetles in the region under changing climate conditions. 
+
+- Master's student Emily Purvis investigated the reassembly of bee communities following restoration of grassland-wetland complexes [@Purvis2020] and which wildflowers support the greatest bee diversity [@Purvis2021].
+
+- PhD student, Dr. Danielle Clake, took our monitoring work to the Rockies and adjacent Selkirk Mountains, climbing 17 mountains three times each. One outcome of that effort was the identification of a new cryptic species of bumble bee using genomic methods. Danielle named the new species *Bombus hibernus* [@Clake2024].
+
+::: {.column-margin}
+![One of many boxes of pinned insects in our collection. These come from traps placed near wetlands. Taxa shown include bumble bees, dragonflies, diving beetles, and others. After pinning, "easy" species are identified by us. But we're not taxonomists, so we often recruit outside experts!](images/fig-insect-sample-wetland.png){#fig-insect-sample-wetland}
+:::
 
 ## Arthropod ecosystem services
 
@@ -36,14 +45,26 @@ These are nature's contribution to people.  Pollination, pest regulation and wee
 :::
 
 ::: {.column-margin}
-![Wetlands, or non-crop vegetation patches provide habitat for beneficial insects that provide ecosystem services, we have shown. By sampling at various distances into the field we have demonstrated spill-over effects from these features into fields, bringing pollinators, pest regulation, and weed control ecosystem services closer to the crop.](images/fig-spillover.png){#fig-spillover}
+![Wetlands, and other non-crop vegetation patches in prairie croplands, provide habitat for beneficial insects that supply ecosystem services. By sampling at various distances into the field, we have demonstrated [spillover]{.textual-bold} from these features into fields. This effect brings pollinators, pest regulation, and weed control ecosystem services closer to the crop.](images/fig-spillover.png){#fig-spillover}
 :::
 
-Lab personnel have shown that non-crop vegetation near fields provides habitat for pollinators (nesting places, flowers for forage), and for the natural enemies of crop pests. Ppostdoc, Dr. Jess Vickruck's, in a well-cited 2019 study showed that native bees are more abundant closer to wetland margins (@Vickruck2019), where they spillover (@fig-spillover) into crops. There they can supply pollination services to flowering crops, such as canola and alfalfa. Dr. Sam Robinson, also a postdoc, discovered that beetles and other predatory arthropods move into and out of these habitats across the growing season, bringing them closer to where their service is needed.
+Lab personnel have shown that non-crop vegetation near fields provides habitat for pollinators and for the natural enemies of crop pests. Spillover (@fig-spillover) of these arthropods has been a popular research topic for us. Some examples of our spillover research:
 
-Spillover has been a popular research topic for us. Master's student Tobyn Neame has shown that predation frequency (as measured by sentinel prey caterpillars; @fig-sentinel-prey) is higher closer to non-crop vegetation (@Neame2024a), and that larger beetles are found further away from field edges (@Neame2024b), suggesting that the body size trait influences the spillover distance. Canola pests, at least late in the season, do not spillover, as reported by lab undergraduate Rebecca Innes (@Innes2024).
+- In a well-cited 2019 study, postdoc Dr. Jess Vickruck showed that native bees are more abundant closer to wetland margins [@Vickruck2019], where they spillover (@fig-spillover) into crops. There they can supply pollination services to flowering crops, such as canola and alfalfa. 
 
-[What next?]{.textual-bold} What about weed control? Many beetles are seed-eaters, and this ecosystem service could be mediated by proximity to non-crop vegetation. Can we generalize beyond the species to their functional traits to articulate the mechanisms of ecosystem service supply? Answering this second question is essential to transcend the regional species assemblages and achieve a global understanding of mechanisms connecting insect biodiversity and ecosystem services.
+- Dr. Sam Robinson, also a postdoc, discovered that beetles and other predatory arthropods move into and out of these habitats across the growing season, bringing them closer to where their service is needed [@Robinson2021].
+
+- MSc student Tobyn Neame showed that predation frequency (as measured by sentinel prey caterpillars; @fig-sentinel-prey) is higher closer to non-crop vegetation [@Neame2024a], and that larger beetles are found further away from field edges [@Neame2024b], suggesting that the body size [functional trait]{.textual-bold} influences the spillover distance. 
+
+- BSc (Hons) student Rebecca Innes found that canola pests, at least late in the season, do not spillover from non-crop features [@Innes2024], which has sometimes concerned farmers.
+
+::: {.column-margin}
+![[Sentinel prey]{.textual-bold} used to detect evidence of pest regulation spillover in crop fields. This plasticine caterpillar (from Tobyn's research [@Neame2024a]) shows attempts by carabid beetles to bite it. Another approach, advanced by lab MSc student Sylvia Neumann, placed inviable moth eggs on tiny sticky cards. She then measured how many were eaten (not pictured).](images/fig-sentinel-prey.png){#fig-sentinel-prey}
+:::
+
+[What next?]{.textual-bold} Weed control! Many beetles are seed-eaters, and this ecosystem service may be mediated by proximity to non-crop vegetation. PhD student Tianyi Ren is working hard on this one.
+
+Can we predict arthropod ecosystem services better using [functional traits]{.textual-bold}? For example, like morphology or behaviour, that are not taxa-specific. Answering this second question is essential for generalizing beyond the region to gain global understanding of the mechanisms connecting biodiversity and ecosystem services.
 
 ## Education and community outreach
 
@@ -51,7 +72,9 @@ Spillover has been a popular research topic for us. Master's student Tobyn Neame
 ![An outreach poster of native bees from Alberta, Canada in the University of Calgary collections. This digital imaging project was a lab partnership with several groups on campus.](images/fig-bee-poster.png){#fig-bee-poster}
 :::
 
-We partnered with the library at the University of Calgary, in 2019, to create a [digital image database](https://digitalcollections.ucalgary.ca/Browse/Collections/Invertebrates/Alberta-Native-Bees){target="_blank"} of the bee diversity of Alberta. For this we drew on our lab's bee collection, and high resolution photographic tools. The database contains more than 1000 images of bees and other arthropods, imaged by students in the lab or in entomology courses. We even made a poster of some of Alberta's most colourful native bee species (@fig-bee-poster). If you would like to print your own large-format poster, please download the high resolution PDF [here](BeePoster_UniversityCalgary_2019.pdf){target="_blank"}.
+We partnered with the library at the University of Calgary, in 2019, to create a [digital image database](https://digitalcollections.ucalgary.ca/Browse/Collections/Invertebrates/Alberta-Native-Bees){target="_blank"} of the bee diversity of Alberta. For this we drew on our lab's bee collection, and high resolution photographic tools. The database contains more than 1000 images of bees and other arthropods, imaged by students in the lab or in entomology courses. 
+
+We even made a poster of some of Alberta's most colourful native bee species (@fig-bee-poster). If you would like to print your own large-format poster, please download the high resolution PDF [here](BeePoster_UniversityCalgary_2019.pdf){target="_blank"}.
 
 Our outreach is ongoing. Trainees in the lab have visited schools in the city, and some of us participate on City of Calgary biodiversity committees.
 
@@ -78,5 +101,5 @@ See more of our biodiversity research publications [here](publications.qmd).
 
 ##### Keywords {.unnumbered .unlisted}
 
-arthropods; bees; beetles; biodiversity monitoring; ecosystem services; pest regulation; pollination; urban biodiversity; weed control; wildflowers;
+arthropods; bees; beetles; biodiversity monitoring; ecosystem services; functional traits; pest regulation; pollination; spillover, urban biodiversity; weed control;
 :::

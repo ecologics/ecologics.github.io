@@ -46,15 +46,15 @@ We have also reported that canola yield surrounding messy patches can be higher.
 
 ## Marginal areas
 
-How can we make fields messier? Farmers may seed parts of their fields year after year and find that these acres, perhaps due to soil conditions, produce too little yield to offset their input costs (like the seeds, fertilizer, herbicides, etc.).
+[How can we make fields messier?]{.textual-bold} Farmers may seed parts of their fields year after year and find that these acres, perhaps due to soil conditions, produce too little yield to offset their input costs (like the seeds, fertilizer, herbicides, etc.).
 
 What if these areas were restored to perennial vegetation? Perenniality is a nature-based solution (NbS) for reducing greenhouse gases. When the land being converted is marginally profitable, it may may save the farmer money to stop seeding it. Messy places can also be habitats for biodiversity and supply many ecosystem services. Restoring marginal areas could therefore help rewild the Canadian Prairies while supporting climate objectives and (critically for implementation) improve the farmer's bottom line.
 
 ::: column-margin
-![The [Prairie Precision Sustainability Network](https://prairiepsn.ca/){target="_blank"} collaborates with farmers to map marginal areas in crop fields across three prairie provinces. This prototype map illustrates the kinds of decision-support tools we are designing to help farmers make their fields messier.](images/ppsn_infographic.png){#fig-ppsn}
+![Our [Prairie Precision Sustainability Network](https://prairiepsn.ca/){target="_blank"} collaborates with farmers to map marginal areas in crop fields across three prairie provinces. This prototype map illustrates the kinds of decision-support tools we are designing to help farmers make their fields messier.](images/ppsn_infographic.png){#fig-ppsn}
 :::
 
-We've been working hard with our [PPSN](https://prairiepsn.ca){target="_blank"} research network colleagues (@fig-ppsn) to bring together precision yield, satellite imagery, and economic data to identify parts of fields that have multi-annual net-negative profitability. Thanks to data from over 70 farmers in Alberta, Saskatchewan and Manitoba, we've built a tool that farmers can use to help them visualize the marginally-profitable parts of their fields.
+We've been working hard with our [PPSN](https://prairiepsn.ca){target="_blank"} research network colleagues (@fig-ppsn) to bring together precision yield, satellite imagery, and economic data to identify parts of fields that have multi-annual net-negative profitability. Thanks to data shared by over 70 farmers in Alberta, Saskatchewan and Manitoba, we've built a tool that farmers across the region can use to help them visualize the marginally-profitable parts of their fields.
 
 [What's next?]{.textual-bold} We're going to work with farmers in the three prairie provinces to make fields messier (i.e., by restoring marginal areas to perennials). More on these exciting next steps very soon!
 

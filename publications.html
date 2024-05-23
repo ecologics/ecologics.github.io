@@ -185,6 +185,7 @@ ul.task-list li input[type="checkbox"] {
 <!--edit the trainee-highlighter.js file -->
 <p>This is a list of publications by lab members, with a curated sample of <span style="background-color: #FFFF00; padding-left: 0.2rem; padding-right: 0.2rem;border-radius: 0.3rem;">figures</span> to illustrate the diversity of research in our lab. See the <a href="./projects_agriculture.html">Agriculture</a>, <a href="./projects_biodiversity.html">Biodiversity</a>, and <a href="./projects_conservation.html">Conservation</a> pages for a topic-based review of our research.</p>
 <p>Graduate and undergraduate students, postdocs, technicians, and research associates who worked in the lab are <span class="trainee-highlight">in red</span>. Lab PIs are <span class="textual-bold">in black</span>.</p>
+<p>Can’t access these? Send an email to <a href="./pgalpern.html">Paul Galpern</a>.</p>
 <div class="publications page-columns page-full">
 <ol reversed="">
 <section id="abc-lab-publications" class="level4" style="text-indent: -2rem;">
@@ -433,7 +434,7 @@ Figure&nbsp;8: <span class="citation" data-cites="Ladle2018">Ladle, Galpern, and
 <a href="images/fig_galpern2012.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" data-glightbox="description: .lightbox-desc-9"><img src="images/fig_galpern2012.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-galpern2012-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;9: <span class="citation" data-cites="Galpern2012">Galpern et al. (2012)</span> is R software that matches DNA samples based on genomic profiles. This tool has had significant impact on conservation on the ground (or water) with hundreds of cited applications to at-risk populations of terrestrial mammals, plants, birds, fishes, and marine mammals. It is currently maintained by Todd Cross. An example of profile matching is shown.
+Figure&nbsp;9: <span class="citation" data-cites="Galpern2012">Galpern et al. (2012)</span> describes the <a href="https://cran.r-project.org/web/packages/allelematch/index.html" target="_blank">allelematch package for R</a>, which is software that matches DNA samples based on genomic profiles. This tool has had significant impact on conservation on the ground (or water) with hundreds of cited applications to at-risk populations of terrestrial mammals, plants, birds, fishes, and marine mammals. It is currently maintained by Todd Cross. An example of profile matching is shown.
 </figcaption>
 </figure>
 </div>
@@ -449,7 +450,7 @@ Figure&nbsp;9: <span class="citation" data-cites="Galpern2012">Galpern et al. (2
 <span class="glightbox-desc lightbox-desc-6">Figure&nbsp;6: <span class="citation" data-cites="Chubaty2020">Chubaty, Galpern, and Doctolero (2020)</span> introduced <a href="https://cran.r-project.org/web/packages/grainscape/index.html" target="_blank"><em>grainscape</em></a>, new R software for landscape connectivity modelling. This team effort was led by visiting scientist Dr.&nbsp;Alex Chubaty and underwritten by lab undergraduate Sam Doctolero’s breathtakingly efficient C++ code.</span>
 <span class="glightbox-desc lightbox-desc-7">Figure&nbsp;7: <span class="citation" data-cites="Purvis2020">Purvis et al. (2020)</span> compared the diversity and the abundance of bees and the flowers at Alberta grassland-wetland sites of various times since restoration. This was analyzed by MSc student Emily Purvis, with sampling implemented by postdoc Dr.&nbsp;Jess Vickruck.</span>
 <span class="glightbox-desc lightbox-desc-8">Figure&nbsp;8: <span class="citation" data-cites="Ladle2018">Ladle, Galpern, and Doyle-Baker (2018)</span> brought wildlife ecological methods to urban landscape planning, proposing urban resource selection functions (RSFs). This work, led by lab postdoc Dr.&nbsp;Andrew Ladle, introduced how we can use “human radiocollars” (GPS-enabled smartphones) to understand how people use Calgary parks (pictured).</span>
-<span class="glightbox-desc lightbox-desc-9">Figure&nbsp;9: <span class="citation" data-cites="Galpern2012">Galpern et al. (2012)</span> is R software that matches DNA samples based on genomic profiles. This tool has had significant impact on conservation on the ground (or water) with hundreds of cited applications to at-risk populations of terrestrial mammals, plants, birds, fishes, and marine mammals. It is currently maintained by Todd Cross. An example of profile matching is shown.</span>
+<span class="glightbox-desc lightbox-desc-9">Figure&nbsp;9: <span class="citation" data-cites="Galpern2012">Galpern et al. (2012)</span> describes the <a href="https://cran.r-project.org/web/packages/allelematch/index.html" target="_blank">allelematch package for R</a>, which is software that matches DNA samples based on genomic profiles. This tool has had significant impact on conservation on the ground (or water) with hundreds of cited applications to at-risk populations of terrestrial mammals, plants, birds, fishes, and marine mammals. It is currently maintained by Todd Cross. An example of profile matching is shown.</span>
 </div>
 
 <div style="font-size: 0.8rem; margin-top: 5rem; border-top: 1px solid lightgrey; 
@@ -863,7 +864,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
