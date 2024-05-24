@@ -1,0 +1,52 @@
+---
+title: "People"
+lightbox: true
+format:
+  html:
+    toc: true      
+    toc-location: right
+bibliography: abclab.bib
+link-citations: true
+csl: apa-numeric-superscript-brackets.csl
+---
+
+Pictures of our crew ... (in progress)
+```{r}
+#| echo: false
+#| message: false
+#| warnings: false
+#| results: asis
+library(tidyverse)
+
+stem <- "./images/people/"
+filesToGrid <- tibble(filename = dir(stem)) %>%
+  separate(filename, c("image", "ext"), sep="\\.", remove=FALSE) %>%
+  mutate(filename=paste0(stem, filename)) %>%
+  arrange(image) %>%
+  mutate(gCol = paste0('\n::: {style="width: 200px;"}\n![](', filename, '){style="object-fit: cover;"}\n:::\n'))
+
+
+#cat(':::::: {.grid style="--bs-columns: 4;"}\n')
+#cat(filesToGrid %>% pull(gCol))
+#cat('\n::::::\n')
+
+
+
+```
+
+
+
+```{=html}
+<div class="grid">
+  <div class="g-col-6" style="height: 20em; width: 100%;">
+      <img src="images/people/people-pic-0010.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
+  <div class="g-col-6" style="height: 20em; width: 100%;">
+      <img src="images/people/people-pic-0012.png" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
+<div class="g-col-6" style="height: 20em; width: 100%;">
+      <img src="images/people/people-pic-0015.png" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
+  <div class="g-col-6" style="height: 20em; width: 100%;">
+      <img src="images/people/people-pic-0020.png" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
+  <div class="g-col-6" style="height: 20em; width: 100%;">
+      <img src="images/people/people-pic-0093.png" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
+</div>
+```
