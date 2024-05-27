@@ -17,6 +17,8 @@ csl: apa-numeric-superscript-brackets.csl
 --- 
 
 ::: {.responsive-small}
+## Who are we? {.unnumbered .unlisted}
+
 #### A list of our [current lab members](#current-lab) and [alumni](#alumni) can be found at the bottom of the page. {style="text-transform: none;"}
 
 :::
@@ -70,7 +72,7 @@ peopleD <- read_csv("D:\\OneDrive - University of Calgary\\Research\\Web\\abc-la
                               "\n\n")) %>%
   left_join(orderGroup, by="Category") %>%
   group_by(Category, categoryOrder) %>%
-  arrange(desc(endYear)) %>%
+  arrange(desc(endYear), lastName) %>%
   group_by(Alumni, Category, categoryOrder) %>%
   nest() %>%
   ungroup() %>%
@@ -96,7 +98,7 @@ cat(filesToGrid %>% pull(column_margin))
 
 ## Write out people to RMarkdown
 ## First current people
-cat("## Current lab members {#current-lab}\n")
+cat("## The ABC Lab [(", format(Sys.Date(), "%B %Y"), ")]{style=\"font-size: 0.75em;\"}{#current-lab}\n", sep="")
 
 peopleD %>% 
   filter(Alumni == "N") %>% 
@@ -104,8 +106,11 @@ peopleD %>%
   reduce(paste0) %>% 
   cat()
 
+cat("#### PIs {style=\"text-transform: none;\"}\n")
+cat("* [Dr. Paul Galpern](@pgalpern.qmd)\n*  [Dr. Mindi Summers](@msummers.qmd)\n\n")
+
 cat("## Alumni {#alumni}\n")
-cat("[If your name is missing, we really want to add it. Please tell [Paul](@pgalpern.qmd)!]{style=\"font-size: 0.8em;\"}\n\n")
+cat("[If your name is missing, we really want to add it. We also want to link to where you are now. Please tell [Paul](@pgalpern.qmd)!]{style=\"font-size: 0.8em;\"}\n\n")
 peopleD %>% 
   filter(Alumni == "Y") %>% 
   pull(rmarkText) %>% 
