@@ -119,4 +119,6 @@
   padding-left: 0rem;
 }
 
-
+.fig-people .column-margin .quarto-float-caption-bottom {
+    margin-bottom: 0rem;
+}

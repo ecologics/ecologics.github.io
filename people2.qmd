@@ -1,16 +1,26 @@
 ---
-title: "People"
+title: ""
 lightbox: true
+cap-location: top
 format:
   html:
     toc: true      
     toc-location: right
+    grid:
+      sidebar-width: 0px
+      body-width: 500px
+      margin-width: 300px
 bibliography: abclab.bib
 link-citations: true
 csl: apa-numeric-superscript-brackets.csl
----
 
-Pictures of our crew ... (in progress)
+--- 
+
+::: {.responsive-small}
+#### A list of our [current lab members](#current-lab) and [alumni](#alumni) can be found at the bottom of the page. {style="text-transform: none;"}
+
+:::
+
 ```{r}
 #| echo: false
 #| message: false
@@ -18,35 +28,91 @@ Pictures of our crew ... (in progress)
 #| results: asis
 library(tidyverse)
 
-stem <- "./images/people/"
+
+## Code to add people in D:\OneDrive - University of Calgary\Research\Web\abc-lab\peopleLookup.csv
+## This cannot be added to GitHub for privacy reasons
+## Initialize first name of anyone who worked for us who was not a postdoc or a graduate student, or who is not
+## currently in the lab (and therefore could be asked whether they are okay being listed)
+
+## Use this to order the different categories of students
+orderGroup <- tibble(Category=c("Graduate students", "Postdoctoral scholars", 
+                                "Undergraduate students", "Research staff",
+                                "Research staff (field)", 
+                                "Sponsorships of interns from other post-secondary institutions", 
+                                "Sponsorships of visiting researchers"),
+                     categoryOrder=1:7)
+
+## Process the CSV to produce rmarkdown
+peopleD <- read_csv("D:\\OneDrive - University of Calgary\\Research\\Web\\abc-lab\\peopleLookup.csv",
+                    show_col_types=FALSE) %>%
+  separate(Trainee, c("title", "firstName", "lastName"), sep=" ", fill="left", extra="merge", remove=FALSE) %>%
+  separate(Period, c("startYear", "endYear"), sep="-", fill="right", extra="merge", remove=TRUE) %>%
+  mutate(across(where(is.character), ~replace_na(.x, ""))) %>%
+  mutate(endYear = if_else(endYear=="", startYear, endYear)) %>%
+  mutate(displayYear = if_else(startYear == endYear, startYear, paste0(startYear, "--", endYear))) %>%
+  mutate(displayYear = if_else(Alumni=="N", paste0(startYear, "--Current"), displayYear)) %>%
+  mutate(initial=substr(firstName, 1, 1)) %>%
+  relocate(initial, .before="firstName") %>%
+  mutate(title=if_else(title!="", paste0(title, " "), "")) %>%
+  mutate(displayName = case_when(
+    Alumni != "Y" | Category %in% 
+        c("Postdoctoral scholars", 
+          "Graduate students", 
+          "Sponsorships of visiting researchers") ~ paste0(title, firstName, " ", lastName),
+    TRUE ~ paste0(initial, ". ", lastName)
+  )) %>%
+  mutate(displayText = paste0("* ",
+                              "[", displayName, "]{style=\"font-weight: 900;\"}",
+                              if_else(Degree != "", paste0(" (", Degree, ") "), ""),
+                              " (", displayYear, ")",
+                              "\n    + ",
+                              "[", ResearchTopic, "]{style=\"color: grey;\"}",
+                              "\n\n")) %>%
+  left_join(orderGroup, by="Category") %>%
+  group_by(Category, categoryOrder) %>%
+  arrange(desc(endYear)) %>%
+  group_by(Alumni, Category, categoryOrder) %>%
+  nest() %>%
+  ungroup() %>%
+  arrange(Alumni, categoryOrder) %>%
+  select(-categoryOrder) %>%
+  mutate(rmarkText = map2(Category, data, function(x,y) {
+    paste0("#### ", x, "\n", y %>% pull(displayText) %>% reduce(paste0), "\n")
+    }))
+
+
+
+## Code to add photos in images/people
+stem <- "images/people/"
 filesToGrid <- tibble(filename = dir(stem)) %>%
   separate(filename, c("image", "ext"), sep="\\.", remove=FALSE) %>%
+  separate(image, c(NA, NA, NA, "image_year"), sep="-", remove=FALSE) %>%
   mutate(filename=paste0(stem, filename)) %>%
   arrange(image) %>%
-  mutate(gCol = paste0('\n::: {style="width: 200px;"}\n![](', filename, '){style="object-fit: cover;"}\n:::\n'))
+  mutate(column_margin=paste0('\n::: {.column-margin}\n![[', image_year, ']{style="position: absolute; top: -10; right: 3; color:black; font-weight: 900; font-size: 1.25em; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.6);"}](', filename, ')\n:::\n'))
 
+cat('::: {.column-margin}\nA sampling of lab members at work, since 2015.\n:::\n')
+cat(filesToGrid %>% pull(column_margin))
 
-#cat(':::::: {.grid style="--bs-columns: 4;"}\n')
-#cat(filesToGrid %>% pull(gCol))
-#cat('\n::::::\n')
+## Write out people to RMarkdown
+## First current people
+cat("## Current lab members {#current-lab}\n")
+
+peopleD %>% 
+  filter(Alumni == "N") %>% 
+  pull(rmarkText) %>% 
+  reduce(paste0) %>% 
+  cat()
+
+cat("## Alumni {#alumni}\n")
+cat("[If your name is missing, we really want to add it. Please tell [Paul](@pgalpern.qmd)!]{style=\"font-size: 0.8em;\"}\n\n")
+peopleD %>% 
+  filter(Alumni == "Y") %>% 
+  pull(rmarkText) %>% 
+  reduce(paste0) %>% 
+  cat()
 
 
 
 ```
 
-
-
-```{=html}
-<div class="grid">
-  <div class="g-col-6" style="height: 20em; width: 100%;">
-      <img src="images/people/people-pic-0010.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
-  <div class="g-col-6" style="height: 20em; width: 100%;">
-      <img src="images/people/people-pic-0012.png" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
-<div class="g-col-6" style="height: 20em; width: 100%;">
-      <img src="images/people/people-pic-0015.png" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
-  <div class="g-col-6" style="height: 20em; width: 100%;">
-      <img src="images/people/people-pic-0020.png" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
-  <div class="g-col-6" style="height: 20em; width: 100%;">
-      <img src="images/people/people-pic-0093.png" class="img-fluid" style="object-fit: cover; width: 100%; height: 20em;"></div>
-</div>
-```
