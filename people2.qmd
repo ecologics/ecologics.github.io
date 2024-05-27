@@ -33,7 +33,7 @@ library(tidyverse)
 
 ## Code to add people in D:\OneDrive - University of Calgary\Research\Web\abc-lab\peopleLookup.csv
 ## This cannot be added to GitHub for privacy reasons
-## Initialize first name of anyone who worked for us who was not a postdoc or a graduate student, or who is not
+## Code below Initializes first name of anyone who worked for us who was not a postdoc or a graduate student, or who is not
 ## currently in the lab (and therefore could be asked whether they are okay being listed)
 
 ## Use this to order the different categories of students
