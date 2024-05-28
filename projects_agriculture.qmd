@@ -23,7 +23,7 @@ Finding ways to use less land to produce more food has received international re
 Our research is animated by the possibility that small changes to management in Canadian Prairie croplands (@fig-prairie-crops) could lead to *win-win-wins* (i.e., mutually beneficial solutions for food production, biodiversity and climate).
 
 ::: {.column-margin}
-![Annual crop fields (yellow) cover a footprint of \~500,000 km^2^ in the Canadian Prairie provinces of Alberta (AB), Saskatchewan (SK) and Manitoba (MB). That's the same as covering France with only canola, wheat, barley and peas (and a few other crops). Achieving sustainable intensification across this vast region is a globally-significant challenge.](images/prairie_crops.png){#fig-prairie-crops}
+![Annual crop fields (yellow) cover a footprint of \~500,000 km^2^ in the Canadian Prairie provinces of Alberta (AB), Saskatchewan (SK) and Manitoba (MB). That's the same as covering France with only canola, wheat, barley and peas (and a few other crops). Achieving sustainable intensification across this vast region is a globally-significant challenge.](images/prairie_crops.jpg){#fig-prairie-crops}
 :::
 
 For example, we could [make fields messier]{.textual-bold}, by restoring or retaining perennial non-crop vegetation (@fig-agriculture-montage; left and right). Patches of vegetation like these supply ecosystem services to agriculture, and serve as habitats for biodiversity, potentially improving crop yields in neighbouring fields.

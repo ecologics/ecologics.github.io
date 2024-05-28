@@ -18,7 +18,7 @@ We love insects! (See @fig-biodiversity-montage). So little is known about so ma
 
 A major focus are the beneficial insects that provide ecosystem services. Our team has sampled at hundreds of sites (@fig-beneficial-insects-surveillance). Back at the lab, sample processing (like this; @fig-jars-processing), followed by pinning specimens (like this; @fig-insect-sample-wetland) is a common activity for our undergraduate and graduate students.
 
-![Between 2015 and 2021 the lab sampled bees, beetles, hoverflies, spiders, and other arthropods at 335 cropland sites across Alberta, Canada, for a total sampling effort of ~9000 trap-weeks. We curated over 200,000 beneficial arthropod specimens from this haul. The bee collection alone is among the largest (by specimen count) in Canada. Many specimens were identified by "visiting" taxonomists like [bee expert Lincoln Best](https://extension.oregonstate.edu/people/lincoln-best) and coleopterist Dr. Manoj Kandoth.](images/fig_beneficial-insects-surveillance.png){#fig-beneficial-insects-surveillance}
+![Between 2015 and 2021 the lab sampled bees, beetles, hoverflies, spiders, and other arthropods at 335 cropland sites across Alberta, Canada, for a total sampling effort of ~9000 trap-weeks. We curated over 200,000 beneficial arthropod specimens from this haul. The bee collection alone is among the largest (by specimen count) in Canada. Many specimens were identified by "visiting" taxonomists like [bee expert Lincoln Best](https://extension.oregonstate.edu/people/lincoln-best) and coleopterist Dr. Manoj Kandoth.](images/fig_beneficial-insects-surveillance.jpg){#fig-beneficial-insects-surveillance}
 
 ::: {.column-margin}
 ![From the field to the lab. Each jar represents a different sample, containing arthropods of many species.](images/fig-jars-processing.png){#fig-jars-processing}
@@ -35,7 +35,7 @@ Biodiversity data are the basis of many recent lab [publications](publications.q
 - PhD student, Dr. Danielle Clake, took our monitoring work to the Rockies and adjacent Selkirk Mountains, climbing 17 mountains three times each. One outcome of that effort was the identification of a new cryptic species of bumble bee using genomic methods. Danielle named the new species *Bombus hibernus* [@Clake2024].
 
 ::: {.column-margin}
-![One of many boxes of pinned insects in our collection. These come from traps placed near wetlands. Taxa shown include bumble bees, dragonflies, diving beetles, and others. After pinning, "easy" species are identified by us. But we're not taxonomists, so we often recruit outside experts!](images/fig-insect-sample-wetland.png){#fig-insect-sample-wetland}
+![One of many boxes of pinned insects in our collection. These come from traps placed near wetlands. Taxa shown include bumble bees, dragonflies, diving beetles, and others. After pinning, "easy" species are identified by us. But we're not taxonomists, so we often recruit outside experts!](images/fig-insect-sample-wetland.jpg){#fig-insect-sample-wetland}
 :::
 
 ## Arthropod ecosystem services

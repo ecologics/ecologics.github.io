@@ -4,7 +4,7 @@ lightbox: true
 ---
 
 ::: column-margin
-![](images/pgalpern.png)
+![](images/pgalpern.jpg)
 
 ::: {style="margin-top: 1em; font-weight: 900; color: black;"}
 Associate Professor\
