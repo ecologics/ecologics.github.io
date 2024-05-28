@@ -114,10 +114,10 @@ peopleD %>%
   cat()
 
 cat("#### PIs {style=\"text-transform: none;\"}\n")
-cat("* [Dr. Paul Galpern](@pgalpern.qmd)\n*  [Dr. Mindi Summers](@msummers.qmd)\n\n")
+cat("* [Dr. Paul Galpern](pgalpern.qmd)\n*  [Dr. Mindi Summers](msummers.qmd)\n\n")
 
 cat("## Alumni {#alumni}\n")
-cat("[If your name is missing, we really want to add it. We also want to link to where you are now. Please tell [Paul](@pgalpern.qmd)!]{style=\"font-size: 0.8em;\"}\n\n")
+cat("[If your name is missing, we really want to add it. We also want to link to where you are now. Please tell [Paul](pgalpern.qmd)!]{style=\"font-size: 0.8em;\"}\n\n")
 peopleD %>% 
   filter(Alumni == "Y") %>% 
   pull(rmarkText) %>% 

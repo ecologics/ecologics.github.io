@@ -9,7 +9,7 @@ format:
       margin-width: 400px
 ---
 ::: {.column-margin}
-![Four BSc Honours research students from the ABC Lab received awards at the undergraduate symposium in March 2024. We take on several undergraduate research project students every year, and we hold weekly group meetings to develop research skills, and practice giving research talks.](images/fig-undergrad-research.jpg)
+![Four BSc Honours research students from the ABC Lab received awards at the undergraduate symposium in March 2024. We take on several undergraduate research project students every year, and we hold weekly group meetings for students to develop research skills, and practice giving research talks.](images/fig-undergrad-research.jpg)
 :::
 
 We work hard to create a research community in which everyone is welcomed and feels included.  We'd love to have you join us.
@@ -31,7 +31,7 @@ Don't hesitate to reach out with any questions to [Dr. Paul Galpern](pgalpern.qm
 We request that anyone interested in joining the lab email us with the following:
 
 1. Unofficial transcripts
-2. A brief statement of how your research interests interface with active research projects in the lab (e.g., in [agriculture](@projects_agriculture.qmd), [biodiversity](@projects_biodiversityqmd), or [conservation](@projects_conservation.qmd)).
+2. A brief statement of how your research interests interface with active research projects in the lab (e.g., in [agriculture](projects_agriculture.qmd), [biodiversity](projects_biodiversityqmd), or [conservation](projects_conservation.qmd)).
 3. A CV (not required for undergraduates)
 4. Evidence of your written work (not required for undergraduates)
 

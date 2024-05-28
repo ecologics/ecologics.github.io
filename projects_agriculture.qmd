@@ -14,7 +14,7 @@ csl: apa-numeric-superscript-brackets.csl
 
 ## The challenge
 
-##### Sustainable intensification of agriculture in the Canadian Prairies
+### Sustainable intensification {.unnumbered .unlisted}
 
 ::: {.callout-tip icon="false" title="Why sustainable intensification?"}
 Finding ways to use less land to produce more food has received international recognition as a critical challenge to combat the climate crisis and safeguard biodiversity, while ensuring food security for all.
@@ -70,7 +70,7 @@ It is a novel way of combining solar photovoltaic systems and agricultural activ
 
 Working with [Solartility](https://www.solartility.ca/agrivoltaics/){target="_blank"} we're creating an [Agrivoltaics Research Park](https://ucalgary.ca/news/moo-ve-over-theres-exciting-new-solar-project-town){target="_blank"} at University of Calgary's W.A. Ranches. It will occupy less than 10 ha of land, have bifacial upright panels, and cattle will graze beneath the panels. A distributed network of these small footprint facilities could go a long way to reducing the carbon exposure of the electrical grid. AI thinks the site will look something like this (@fig-agrivoltaics-ai). We'll have real pictures after the site is operating in 2025.
 
-[What's next?]{.textual-bold} The A+B⋅C Lab will lead the long-term environmental monitoring at this facility, researching the agricultural and environmental risks and benefits of constructing these facilities. Aligned with our agricultural sustainability theme, we will ask whether beef cattle agrivoltaics can be mutually beneficial for rancher livelihoods and for climate while minimizing impacts on the ranch environment.
+[What's next?]{.textual-bold} The ABC Lab will lead the long-term environmental monitoring at this facility, researching the agricultural and environmental risks and benefits of constructing these facilities. Aligned with our agricultural sustainability theme, we will ask whether beef cattle agrivoltaics can be mutually beneficial for rancher livelihoods and for climate while minimizing impacts on the ranch environment.
 
 ### Funders {.unnumbered .unlisted}
 
