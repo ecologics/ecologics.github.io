@@ -45,7 +45,7 @@ format:
 
 We study the sustainable intensification of agriculture, and explore whether changes to landscape management can lead to mutually beneficial solutions for food, farmers, biodiversity, and climate.
 
-![[Learn more](projects_agriculture.qmd) about our research on agricultural sustainability, messy fields, "win-win-wins," precision farming, remote sensing, and agrivoltaics in the Canadian Prairies](images/agriculture_montage.png)
+![[Learn more](projects_agriculture.qmd) about our research on agricultural sustainability, messy fields, "win-win-wins," precision farming, remote sensing, and agrivoltaics in the Canadian Prairies](images/agriculture_montage.jpg)
 
 ##  {style="border-color: lightgrey; margin-top: 0rem;"}
 
@@ -53,7 +53,7 @@ We study the sustainable intensification of agriculture, and explore whether cha
 
 We love bees, beetles and other invertebrates, and research the ecosystem services supplied by these species.
 
-![[Learn more](projects_biodiversity.qmd) about our research on arthropod biodiversity and the pollination, pest regulation and weed control ecosystem services supplied by arthropods](images/biodiversity_montage.png)
+![[Learn more](projects_biodiversity.qmd) about our research on arthropod biodiversity and the pollination, pest regulation and weed control ecosystem services supplied by arthropods](images/biodiversity_montage.jpg)
 
 ##  {style="border-color: lightgrey; margin-top: 0rem;"}
 
@@ -61,4 +61,4 @@ We love bees, beetles and other invertebrates, and research the ecosystem servic
 
 We study the theory and the practice of conservation at landscape scales, with a focus on prairie, mountain, and urban ecosystems in western Canada.
 
-![[Learn more](projects_conservation.qmdl) about our research in landscape ecology, climate change impacts on biodiversity, ecological methods, collaborative science in cities, and our transdisciplinary studies of how people use city parks and streets](images/conservation_montage.png)
+![[Learn more](projects_conservation.qmdl) about our research in landscape ecology, climate change impacts on biodiversity, ecological methods, collaborative science in cities, and our transdisciplinary studies of how people use city parks and streets](images/conservation_montage.jpg)

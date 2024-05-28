@@ -10,7 +10,7 @@ link-citations: true
 csl: apa-numeric-superscript-brackets.csl
 ---
 
-![Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) *Bombus terricola*, a bumble bee of conservation concern, in Alberta, Canada. (Centre) *Pterostichus melanarius*, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, British Columbia, Canada.](images/biodiversity_montage.png){#fig-biodiversity-montage}
+![Beneficial insects providing ecosystem services, among more than 350 species identified by in our lab. (Left) *Bombus terricola*, a bumble bee of conservation concern, in Alberta, Canada. (Centre) *Pterostichus melanarius*, a common beetle predator of crop pests and weed seeds. (Right) A bee visits an invasive thistle in the Kootenays, British Columbia, Canada.](images/biodiversity_montage.jpg){#fig-biodiversity-montage}
 
 ## Monitoring and surveillance
 
@@ -21,7 +21,7 @@ A major focus are the beneficial insects that provide ecosystem services. Our te
 ![Between 2015 and 2021 the lab sampled bees, beetles, hoverflies, spiders, and other arthropods at 335 cropland sites across Alberta, Canada, for a total sampling effort of ~9000 trap-weeks. We curated over 200,000 beneficial arthropod specimens from this haul. The bee collection alone is among the largest (by specimen count) in Canada. Many specimens were identified by "visiting" taxonomists like [bee expert Lincoln Best](https://extension.oregonstate.edu/people/lincoln-best) and coleopterist Dr. Manoj Kandoth.](images/fig_beneficial-insects-surveillance.jpg){#fig-beneficial-insects-surveillance}
 
 ::: {.column-margin}
-![From the field to the lab. Each jar represents a different sample, containing arthropods of many species.](images/fig-jars-processing.png){#fig-jars-processing}
+![From the field to the lab. Each jar represents a different sample, containing arthropods of many species.](images/fig-jars-processing.jpg){#fig-jars-processing}
 :::
 
 Biodiversity data are the basis of many recent lab [publications](publications.qmd). For example:

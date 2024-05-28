@@ -10,7 +10,7 @@ link-citations: true
 csl: apa-numeric-superscript-brackets.csl
 ---
 
-![Making fields messier (left and right), and co-locating renewable energy generation with pasture (centre) are examples of the lab's agricultural sustainability research.](images/agriculture_montage.png){#fig-agriculture-montage}
+![Making fields messier (left and right), and co-locating renewable energy generation with pasture (centre) are examples of the lab's agricultural sustainability research.](images/agriculture_montage.jpg){#fig-agriculture-montage}
 
 ## The challenge
 

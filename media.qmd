@@ -1,20 +1,90 @@
 ---
-title: "Media page"
+title: ""
 lightbox: true
+cap-location: top
 format:
   html:
     toc: true      
     toc-location: right
----
+bibliography: abclab.bib
+link-citations: true
+csl: apa-numeric-superscript-brackets.csl
 
-## In the news
-
-Links to news articles
+--- 
 
 ## Videos
 
-Links to various conference talks of lab members
+Here are some recent talks given by Paul Galpern on our [agriculture](projects_agriculture.qmd) and [biodiversity](projects_biodiversity.qmd) research.
 
-## Posters
+::: {.grid style="background-color: #f2f2f2; padding: 1em;"}
+::: {.g-col-6}
+[The Simpson Centre]{style="font-weight: 900;"} (2024)  
+Sustainable agriculture {{< video src="https://www.youtube.com/embed/yR4mteUM_9I" >}}
+:::
+::: {.g-col-6}
+[UAlberta Sustainability]{style="font-weight: 900;"} (2023)   
+Sustainable Agriculture {{< video src="https://www.youtube.com/embed/uPvr-WluPRs" >}}
+:::
+::: {.g-col-6}
+[Farming Smarter Lethbridge]{style="font-weight: 900;"} (2022)   
+Sustainable agriculture  {{< video src="https://www.youtube.com/embed/hsEdQN2Eriw" >}}
+:::
+::: {.g-col-6}
+[Canola Watch Webinar]{style="font-weight: 900;"} (2022)   
+Sustainable agriculture {{< video src="https://www.youtube.com/embed/jLS2H0OlP6A" >}}
+:::
+:::
 
-Links to PDFs of research posters given at conferences.
+## Posters {style="margin-top: 3em;"}
+
+* Poster by Dr. Danielle Clake. Genetic data suggest limited bumble bee dispersal into Canadian Rockies. [[PDF](danielle_clake_poster.pdf){target="_blank"}]
+
+## Media coverage {style="margin-top: 3em;"}
+
+```{r}
+#| echo: false
+#| message: false
+#| warnings: false
+#| results: asis
+library(tidyverse)
+
+## Code to add news articles in D:\OneDrive - University of Calgary\Research\Web\abc-lab\newsLookup.csv
+
+orderGroup <- tibble(Topic=c("Agrivoltaics", "Sustainable agriculture", 
+                                "Pollinators", "Pollinators and climate change"),
+                     topicOrder=1:4)
+
+
+## Process the CSV to produce rmarkdown
+newsD <- read_csv("..\\..\\Web\\abc-lab\\newsLookup.csv",
+                    show_col_types=FALSE) %>%
+  mutate(month_num = match(Month, month.name)) %>%
+  mutate(across(where(is.character), ~replace_na(.x, ""))) %>%
+  mutate(displayText = paste0("(@) [", Outlet, "]{style=\"font-weight: 900;\"}.",
+                              if_else(URL != "", 
+                                      paste0(" [", Title, "](", URL, "){target=\"_blank\"}."),
+                                      paste0(" ", Title, ".")),
+                              " (", Month, ", ", Year, ")",
+                              "\n\n")) %>%
+  left_join(orderGroup, by="Topic") %>%
+  group_by(Topic, topicOrder) %>%
+  arrange(desc(Year), desc(month_num)) %>%
+  nest() %>%
+  ungroup() %>%
+  arrange(topicOrder) %>%
+  mutate(rmarkText = map2(Topic, data, function(x,y) {
+    paste0("#### ", x, "\n", y %>% pull(displayText) %>% reduce(paste0), "\n")
+    }))
+
+
+newsD %>% 
+  pull(rmarkText) %>% 
+  reduce(paste0) %>% 
+  cat()
+
+
+
+```
+
+
+

@@ -10,7 +10,7 @@ link-citations: true
 csl: apa-numeric-superscript-brackets.csl
 ---
 
-![We study theory, methods, and applications of conservation at broad scales. Our focus is on Canadian Prairie agricultural landscapes (left), on mountain landscapes of Alberta and adjacent British Columbia (centre), and on urban landscapes in the City of Calgary, Alberta (right).](images/conservation_montage.png)
+![We study theory, methods, and applications of conservation at broad scales. Our focus is on Canadian Prairie agricultural landscapes (left), on mountain landscapes of Alberta and adjacent British Columbia (centre), and on urban landscapes in the City of Calgary, Alberta (right).](images/conservation_montage.jpg)
 
 ## Landscape ecology
 
