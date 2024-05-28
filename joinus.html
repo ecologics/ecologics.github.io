@@ -33,6 +33,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -144,9 +147,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content page-columns page-full column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -155,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -167,9 +171,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>What you need to know to join us.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/fig-undergrad-research.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Four BSc Honours research students from the ABC Lab received awards at the undergraduate symposium in March 2024. We take on several undergraduate research project students every year, and we hold weekly group meetings to develop research skills, and practice giving research talks."><img src="images/fig-undergrad-research.jpg" class="img-fluid figure-img" alt="Four BSc Honours research students from the ABC Lab received awards at the undergraduate symposium in March 2024. We take on several undergraduate research project students every year, and we hold weekly group meetings to develop research skills, and practice giving research talks."></a></p>
+<figcaption>Four BSc Honours research students from the ABC Lab received awards at the undergraduate symposium in March 2024. We take on several undergraduate research project students every year, and we hold weekly group meetings to develop research skills, and practice giving research talks.</figcaption>
+</figure>
+</div>
+</div></div><p>We work hard to create a research community in which everyone is welcomed and feels included. We’d love to have you join us.</p>
+<p>Don’t hesitate to reach out with any questions to <a href="./pgalpern.html">Dr.&nbsp;Paul Galpern</a> or <a href="./msummers.html">Dr.&nbsp;Mindi Summers</a>.</p>
+<section id="research-openings" class="level4">
+<h4 data-anchor-id="research-openings">Research Openings</h4>
+<p>(Current: May 28, 2024)</p>
+<ul>
+<li><p><span style="background-color: #FFFF00;">Undergraduate students:</span> We take on several University of Calgary undergraduate students for full-year research projects (e.g., BIOL ECOL ENSC ZOOL 528 or 530). Please contact Paul Galpern or Mindi Summers. We usually finalize our group for the fall during the summer. Half-year opportunities (i.e., 507 courses) are also possible. Students must be prepared to spend 10 hours per week in the lab conducting research, and attend a weekly one-hour group meeting.</p></li>
+<li><p><span style="background-color: #FFFF00;">Graduate students:</span> We’re looking for PhD and possibly MSc students to work on topics related to sustainable agriculture, beneficial insects, or agrivoltaics. There are also exciting opportunities for students with background (or some basis to advance their learning) in remote sensing, machine learning, or statistical modelling.</p></li>
+<li><p><span style="background-color: #FFFF00;">Postdoctoral scholars</span> We have at least ONE open position for a postdoctoral fellow who could contribute to either or sustainable agriculture and/or or agrivoltaics projects. Experience in remote sensing or other computational modelling, soil ecology or entomology are particularly welcome.</p></li>
+</ul>
+</section>
+<section id="how-to-apply" class="level4">
+<h4 data-anchor-id="how-to-apply">How to apply</h4>
+<p>We request that anyone interested in joining the lab email us with the following:</p>
+<ol type="1">
+<li>Unofficial transcripts</li>
+<li>A brief statement of how your research interests interface with active research projects in the lab (e.g., in <a href="@projects_agriculture.qmd">agriculture</a>, <a href="@projects_biodiversityqmd">biodiversity</a>, or <a href="@projects_conservation.qmd">conservation</a>).</li>
+<li>A CV (not required for undergraduates)</li>
+<li>Evidence of your written work (not required for undergraduates)</li>
+</ol>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Four BSc Honours research students from the ABC Lab received awards at the undergraduate symposium in March 2024. We take on several undergraduate research project students every year, and we hold weekly group meetings to develop research skills, and practice giving research talks.</span>
+</div>
+</section>
 
 <div style="font-size: 0.8rem; margin-top: 5rem; border-top: 1px solid lightgrey; 
 border-bottom: 1px solid lightgrey; line-height: 0.95rem; padding: 0.5rem;">
@@ -582,6 +617,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

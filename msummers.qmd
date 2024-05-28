@@ -2,5 +2,52 @@
 title: "Mindi Summers"
 lightbox: true
 ---
+::: column-margin
 
-Mindi's page
+<!-- Image here -->
+
+::: {style="margin-top: 1em; font-weight: 900; color: black;"}
+Professor (Teaching)\
+[Department of Biological Sciences](https://science.ucalgary.ca/biological-sciences){target="_blank"}\
+University of Calgary\
+Alberta\
+CANADA
+:::
+
+::: {style="font-size: 0.8em; margin-top: 1em;"}
+[Email:  
+mindi.summers \[at\] ucalgary \[dot\] ca]{style="font-weight: 900; color: black;"}
+:::
+
+::: {style="font-size: 0.8em; margin-top: 1em;"}
+PhD, MSc (Scripps Institute of Oceanography, University of California, San Diego)\
+BS (Standford University)
+:::
+
+::: {style="margin-top: 1em; margin-bottom: 3em;"}
+<!-- Links here -->
+:::
+:::
+
+::: grid
+::: g-col-1
+[“]{style="font-size: 10em; line-height: 0.75em;"}
+:::
+
+::: {.g-col-10 style="margin-left: 0em;  padding: 0em;"}
+Mindi's biography is forthcoming.
+:::
+
+::: g-col-1
+:::
+
+::: g-col-1
+:::
+
+::: g-col-10
+:::
+
+::: g-col-1
+[”]{style="font-size: 10em; line-height: 0em;"}
+:::
+:::
