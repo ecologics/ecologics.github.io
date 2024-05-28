@@ -33,6 +33,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -144,9 +147,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content page-columns page-full column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -155,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -167,7 +171,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Paul’s page</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><a href="images/pgalpern.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/pgalpern.png" class="img-fluid"></a></p>
+<div style="margin-top: 1em; font-weight: 900; color: black;">
+<p>Associate Professor<br>
+<a href="https://science.ucalgary.ca/biological-sciences" target="_blank">Department of Biological Sciences</a><br>
+University of Calgary<br>
+Alberta<br>
+CANADA</p>
+</div>
+<div style="font-size: 0.8em; margin-top: 1em;">
+<p><span style="font-weight: 900; color: black;">Email: paul.galpern [at] ucalgary [dot] ca</span></p>
+</div>
+<div style="font-size: 0.8em; margin-top: 1em;">
+<p>PhD (University of Manitoba)<br>
+MSc, BEd, BSc (University of Toronto)</p>
+</div>
+<div style="margin-top: 1em; margin-bottom: 3em;">
+<p><a href="https://scholar.google.ca/citations?user=9R3x_0gAAAAJ&amp;hl=en" target="_blank">Google Scholar</a><br>
+<a href="@publications.qmd">Publications (ABC Lab)</a><br>
+<a href="www.linkedin.com/in/paul-galpern-05911a40" target="_blank">LinkedIn</a></p>
+</div>
+</div></div><div class="grid">
+<div class="g-col-1">
+<p><span style="font-size: 10em; line-height: 0.75em;">“</span></p>
+</div>
+<div class="g-col-10" style="margin-left: 0em;  padding: 0em;">
+<p>I’ve been leading a research program at the intersection of ecology, conservation and sustainable agriculture at <a href="https://science.ucalgary.ca/biological-sciences" target="_blank">University of Calgary</a> (a large Canadian research institution), since 2013. I prioritize being a supportive mentor for my graduate students and trainees, and finding ways to innovate as a teacher. I am also a committed colleague and have held leadership roles in teaching and research.</p>
+<p>My research has focused on <a href="./projects_agriculture.html">sustainable agriculture</a>, <a href="./projects_conservation.html">landscape ecology</a>, <a href="./projects_biodiversity.html">ecosystem services</a>, <a href="./projects_conservation.html">biodiversity conservation</a>, global change, and quantitative ecological methods. I have also spearheaded transdisciplinary research and courses that link ecology with the social sciences. I currently lead a multi-institutional research program in agricultural sustainability called the <a href="https://prairiepsn.ca" target="_blank">Prairie Precision Sustainability Network</a>. As an advocate for sustainable agriculture on the Canadian Prairies, I have often been invited to speak on this issue to different audiences.</p>
+<p>I began my career as high school teacher (2001 to 2008), living and working in Indigenous communities in Ontario, Canada. This experience continues to inspire me, and it has shaped the design and philosophy of my undergraduate and graduate courses. Teaching well is very important to me. I strive to improve how we deliver post-secondary education and have introduced several novel teaching and assessment approaches in my courses.</p>
+</div>
+<div class="g-col-1">
+
+</div>
+<div class="g-col-1">
+
+</div>
+<div class="g-col-10">
+
+</div>
+<div class="g-col-1">
+<p><span style="font-size: 10em; line-height: 0em;">”</span></p>
+</div>
+</div>
 
 
 
@@ -582,6 +629,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
