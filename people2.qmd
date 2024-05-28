@@ -19,8 +19,7 @@ csl: apa-numeric-superscript-brackets.csl
 ::: {.responsive-small}
 ## Who are we? {.unnumbered .unlisted}
 
-#### A list of our [current lab members](#current-lab) and [alumni](#alumni) can be found at the bottom of the page. {style="text-transform: none;"}
-
+A list of our [current lab members](#current-lab) and [alumni](#alumni) can be found at the bottom of the page. 
 :::
 
 ```{r}
@@ -29,6 +28,14 @@ csl: apa-numeric-superscript-brackets.csl
 #| warnings: false
 #| results: asis
 library(tidyverse)
+
+## Before doing this need to do the following:
+## Resize images in images/people_original and move them to images/people
+## Change folders as necessary
+## This resizes images to 500 px width, converts to JPG and reduces quality to 90
+
+# source("process_images_smaller.R")
+# resize_images("images/people_original", "images/people", 500)
 
 
 ## Code to add people in D:\OneDrive - University of Calgary\Research\Web\abc-lab\peopleLookup.csv
