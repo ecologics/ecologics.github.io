@@ -9,7 +9,7 @@ format:
     grid:
       sidebar-width: 0px
       body-width: 500px
-      margin-width: 300px
+      margin-width: 250px
 bibliography: abclab.bib
 link-citations: true
 csl: apa-numeric-superscript-brackets.csl
@@ -45,7 +45,7 @@ orderGroup <- tibble(Category=c("Graduate students", "Postdoctoral scholars",
                      categoryOrder=1:7)
 
 ## Process the CSV to produce rmarkdown
-peopleD <- read_csv("D:\\OneDrive - University of Calgary\\Research\\Web\\abc-lab\\peopleLookup.csv",
+peopleD <- read_csv("..\\..\\Web\\abc-lab\\peopleLookup.csv",
                     show_col_types=FALSE) %>%
   separate(Trainee, c("title", "firstName", "lastName"), sep=" ", fill="left", extra="merge", remove=FALSE) %>%
   separate(Period, c("startYear", "endYear"), sep="-", fill="right", extra="merge", remove=TRUE) %>%

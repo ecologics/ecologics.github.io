@@ -3,60 +3,56 @@ title: "Paul Galpern"
 lightbox: true
 ---
 
-
-::: {.column-margin}
+::: column-margin
 ![](images/pgalpern.png)
 
 ::: {style="margin-top: 1em; font-weight: 900; color: black;"}
-Associate Professor  
-[Department of Biological Sciences](https://science.ucalgary.ca/biological-sciences){target="_blank"}  
-University of Calgary  
-Alberta   
+Associate Professor\
+[Department of Biological Sciences](https://science.ucalgary.ca/biological-sciences){target="_blank"}\
+University of Calgary\
+Alberta\
 CANADA
-:::
-::: {style="font-size: 0.8em; margin-top: 1em;"}
-[Email: paul.galpern [at] ucalgary [dot] ca]{style="font-weight: 900; color: black;"}
 :::
 
 ::: {style="font-size: 0.8em; margin-top: 1em;"}
-PhD (University of Manitoba)  
+[Email: paul.galpern \[at\] ucalgary \[dot\] ca]{style="font-weight: 900; color: black;"}
+:::
+
+::: {style="font-size: 0.8em; margin-top: 1em;"}
+PhD (University of Manitoba)\
 MSc, BEd, BSc (University of Toronto)
 :::
 
 ::: {style="margin-top: 1em; margin-bottom: 3em;"}
-[Google Scholar](https://scholar.google.ca/citations?user=9R3x_0gAAAAJ&hl=en){target="_blank"}  
-[Publications (ABC Lab)](@publications.qmd)  
-[LinkedIn](www.linkedin.com/in/paul-galpern-05911a40){target="_blank"}  
+[Google Scholar](https://scholar.google.ca/citations?user=9R3x_0gAAAAJ&hl=en){target="_blank"}\
+[Publications (ABC Lab)](@publications.qmd)\
+[LinkedIn](www.linkedin.com/in/paul-galpern-05911a40){target="_blank"}
 :::
 :::
 
-
-::: {.grid}
-::: {.g-col-1}
+::: grid
+::: g-col-1
 [“]{style="font-size: 10em; line-height: 0.75em;"}
 :::
 
 ::: {.g-col-10 style="margin-left: 0em;  padding: 0em;"}
 I've been leading a research program at the intersection of ecology, conservation and sustainable agriculture at [University of Calgary](https://science.ucalgary.ca/biological-sciences){target="_blank"} (a large Canadian research institution), since 2013. I prioritize being a supportive mentor for my graduate students and trainees, and finding ways to innovate as a teacher. I am also a committed colleague and have held leadership roles in teaching and research.
 
- My research has focused on [sustainable agriculture](projects_agriculture.qmd), [landscape ecology](projects_conservation.qmd), [ecosystem services](projects_biodiversity.qmd), [biodiversity conservation](projects_conservation.qmd), global change, and quantitative ecological methods. I have also spearheaded transdisciplinary research and courses that link ecology with the social sciences. I currently lead a multi-institutional research program in agricultural sustainability called the [Prairie Precision Sustainability Network](https://prairiepsn.ca){target="_blank"}. As an advocate for sustainable agriculture on the Canadian Prairies, I have often been invited to speak on this issue to different audiences.
- 
+My research has focused on [sustainable agriculture](projects_agriculture.qmd), [landscape ecology](projects_conservation.qmd), [ecosystem services](projects_biodiversity.qmd), [biodiversity conservation](projects_conservation.qmd), global change, and quantitative ecological methods. I have also spearheaded transdisciplinary research and courses that link ecology with the social sciences. I currently lead a multi-institutional research program in agricultural sustainability called the [Prairie Precision Sustainability Network](https://prairiepsn.ca){target="_blank"}. As an advocate for sustainable agriculture on the Canadian Prairies, I have often been invited to speak on this issue to different audiences.
+
 I began my career as high school teacher (2001 to 2008), living and working in Indigenous communities in Ontario, Canada. This experience continues to inspire me, and it has shaped the design and philosophy of my undergraduate and graduate courses. Teaching well is very important to me. I strive to improve how we deliver post-secondary education and have introduced several novel teaching and assessment approaches in my courses.
 :::
 
-::: {.g-col-1}
+::: g-col-1
 :::
 
-::: {.g-col-1}
+::: g-col-1
 :::
 
-::: {.g-col-10}
+::: g-col-10
 :::
 
-::: {.g-col-1}
+::: g-col-1
 [”]{style="font-size: 10em; line-height: 0em;"}
 :::
-
 :::
-
-
