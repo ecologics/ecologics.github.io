@@ -6,6 +6,7 @@ format:
   html:
     toc: true      
     toc-location: right
+    page-layout: article
     grid:
       sidebar-width: 0px
       body-width: 500px
@@ -98,7 +99,7 @@ filesToGrid <- tibble(filename = dir(stem)) %>%
   separate(image, c(NA, NA, NA, "image_year"), sep="-", remove=FALSE) %>%
   mutate(filename=paste0(stem, filename)) %>%
   arrange(image) %>%
-  mutate(column_margin=paste0('\n::: {.column-margin}\n![[', image_year, ']{style="position: absolute; top: -10; right: 3; color:black; font-weight: 900; font-size: 1.25em; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.6);"}](', filename, ')\n:::\n'))
+  mutate(column_margin=paste0('\n::: {.column-margin}\n![[', image_year, ']{.year-photo}](', filename, ')\n:::\n'))
 
 cat('::: {.column-margin}\nA sampling of lab members at work, since 2015.\n:::\n')
 cat(filesToGrid %>% pull(column_margin))

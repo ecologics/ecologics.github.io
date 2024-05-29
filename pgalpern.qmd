@@ -1,6 +1,9 @@
 ---
 title: "Paul Galpern"
 lightbox: true
+format:
+  html:
+    page-layout: article
 ---
 
 ::: column-margin
@@ -14,7 +17,7 @@ Alberta\
 CANADA
 :::
 
-::: {style="font-size: 0.8em; margin-top: 1em;"}
+::: {style="font-size: 0.8em; margin-top: 1em;"} 
 [Email: paul.galpern \[at\] ucalgary \[dot\] ca]{style="font-weight: 900; color: black;"}
 :::
 
@@ -35,7 +38,7 @@ MSc, BEd, BSc (University of Toronto)
 [“]{style="font-size: 10em; line-height: 0.75em;"}
 :::
 
-::: {.g-col-10 style="margin-left: 0em;  padding: 0em;"}
+::: {.g-col-11 style="margin-left: 0em;  padding: 0em;"}
 I've been leading a research program at the intersection of ecology, conservation and sustainable agriculture at [University of Calgary](https://science.ucalgary.ca/biological-sciences){target="_blank"} (a large Canadian research institution), since 2013. I prioritize being a supportive mentor for my graduate students and trainees, and finding ways to innovate as a teacher. I am also a committed colleague and have held leadership roles in teaching and research.
 
 My research has focused on [sustainable agriculture](projects_agriculture.qmd), [landscape ecology](projects_conservation.qmd), [ecosystem services](projects_biodiversity.qmd), [biodiversity conservation](projects_conservation.qmd), global change, and quantitative ecological methods. I have also spearheaded transdisciplinary research and courses that link ecology with the social sciences. I currently lead a multi-institutional research program in agricultural sustainability called the [Prairie Precision Sustainability Network](https://prairiepsn.ca){target="_blank"}. As an advocate for sustainable agriculture on the Canadian Prairies, I have often been invited to speak on this issue to different audiences.
@@ -46,13 +49,7 @@ I began my career as high school teacher (2001 to 2008), living and working in I
 ::: g-col-1
 :::
 
-::: g-col-1
+::: g-col-11
 :::
 
-::: g-col-10
-:::
-
-::: g-col-1
-[”]{style="font-size: 10em; line-height: 0em;"}
-:::
 :::

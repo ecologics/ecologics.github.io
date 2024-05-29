@@ -3,6 +3,7 @@ title: "Join us"
 lightbox: true
 format:
   html:
+    page-layout: article
     grid:
       sidebar-width: 0px
       body-width: 400px

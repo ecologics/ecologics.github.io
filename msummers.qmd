@@ -1,6 +1,9 @@
 ---
 title: "Mindi Summers"
 lightbox: true
+format:
+  html:
+    page-layout: article
 ---
 ::: column-margin
 
@@ -34,20 +37,14 @@ BS (Standford University)
 [“]{style="font-size: 10em; line-height: 0.75em;"}
 :::
 
-::: {.g-col-10 style="margin-left: 0em;  padding: 0em;"}
+::: {.g-col-11 style="margin-left: 0em;  padding: 0em;"}
 Mindi's biography is forthcoming.
 :::
 
 ::: g-col-1
 :::
 
-::: g-col-1
+::: g-col-11
 :::
 
-::: g-col-10
-:::
-
-::: g-col-1
-[”]{style="font-size: 10em; line-height: 0em;"}
-:::
 :::

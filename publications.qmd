@@ -5,6 +5,7 @@ bibliography: abclab.bib
 suppress-bibliography: true
 format: 
   html:
+    page-layout: article
     include-before-body: script-include-publications.html
 ---
 

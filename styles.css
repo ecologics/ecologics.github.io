@@ -37,6 +37,15 @@
   margin-top: 2rem;
 }
 
+.year-photo {
+  position: absolute; 
+  color:black; 
+  font-weight: 900; 
+  font-size: 1.25em; 
+  background: rgb(255, 255, 255); 
+  background: rgba(255, 255, 255, 0.6);
+}
+
 @media (min-width: 767px) {
 
   .responsive-normal {
@@ -88,7 +97,16 @@
   .publications .column-margin .quarto-float-caption-bottom {
     margin-bottom: 5rem;
 }
-
+  .year-photo {
+    position: absolute; 
+    top: 0.05em; 
+    left: 3em; 
+    color:black; 
+    font-weight: 900; 
+    font-size: 1.25em; 
+    background: rgb(255, 255, 255); 
+    background: rgba(255, 255, 255, 0.6);
+  }
 }
 
   
@@ -120,5 +138,11 @@
 }
 
 .fig-people .column-margin .quarto-float-caption-bottom {
-    margin-bottom: 0rem;
+  margin-bottom: 0rem;
 }
+
+.column-margin .quarto-float-caption-bottom {
+  z-index: 1000;
+  position: relative;
+}
+
