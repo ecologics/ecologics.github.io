@@ -37,7 +37,7 @@ Can't access these? Send an email to [Paul Galpern](pgalpern.qmd).
 ::: publications
 <ol reversed>
 
-#### A⋅B+C Lab Publications {style="text-indent: -2rem;"}
+#### ABC Lab Publications {style="text-indent: -2rem;"}
 
 <li>Neame, T., Robinson, S., & Galpern, P. (2024). Proximity to non-crop vegetation increases estimates of predation frequency but not beetle numbers. *Agriculture, Ecosystems & Environment*. In revision.</li>
 
