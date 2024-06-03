@@ -124,7 +124,7 @@ Can't access these? Send an email to [Paul Galpern](pgalpern.qmd).
 <li>Ladle, A., Galpern, P., & Doyle-Baker, P. (2018). Measuring the use of green space with urban resource selection functions: An application using smartphone GPS locations. *Landscape and Urban Planning*, *179*, 107–115. [Link](https://doi.org/10.1016/j.landurbplan.2018.07.012){target="_blank"} (@fig-ladle2018)</li>
 
 ::: column-margin
-![@Ladle2018 brought wildlife ecological methods to urban landscape planning, proposing urban resource selection functions (RSFs). This work, led by lab postdoc Dr. Andrew Ladle, introduced how we can use "human radiocollars" (GPS-enabled smartphones) to understand how people use Calgary parks (pictured).](images/fig_ladle2018.jpg){#fig-ladle2018}
+![@Ladle2018 brought wildlife ecological methods to urban landscape planning, proposing urban resource selection functions (RSFs). This work, led by lab postdoc Dr. Andrew Ladle, introduced how we can use "human radiocollars" (GPS-enabled smartphones) to understand how people use Calgary parks (pictured; green).](images/fig_ladle2018.jpg){#fig-ladle2018}
 :::
 
 <li>Rout, A., & Galpern, P. (2018). Using personal smartphone location histories in public engagement: Locating a new campus amenity. *Applied Geography*, *100*, 68–77. [Link](https://doi.org/10.1016/j.apgeog.2018.09.003){target="_blank"}</li>
