@@ -4,13 +4,13 @@ lightbox: true
 cap-location: top
 format:
   html:
-    toc: true      
+    toc: true       
     toc-location: right
     page-layout: article
     grid:
       sidebar-width: 0px
       body-width: 500px
-      margin-width: 250px
+      margin-width: 250px 
 bibliography: abclab.bib
 link-citations: true
 csl: apa-numeric-superscript-brackets.csl
