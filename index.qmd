@@ -61,4 +61,4 @@ We love bees, beetles and other invertebrates, and research the ecosystem servic
 
 We study the theory and the practice of conservation at landscape scales, with a focus on prairie, mountain, and urban ecosystems in western Canada.
 
-![[Learn more](projects_conservation.qmdl) about our research in landscape ecology, climate change impacts on biodiversity, ecological methods, collaborative science in cities, and our transdisciplinary studies of how people use city parks and streets](images/conservation_montage.jpg)
+![[Learn more](projects_conservation.qmd) about our research in landscape ecology, climate change impacts on biodiversity, ecological methods, collaborative science in cities, and our transdisciplinary studies of how people use city parks and streets](images/conservation_montage.jpg)
