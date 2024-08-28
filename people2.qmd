@@ -15,7 +15,7 @@ bibliography: abclab.bib
 link-citations: true
 csl: apa-numeric-superscript-brackets.csl
 
---- 
+---   
 
 ::: {.responsive-small}
 ## Who are we? {.unnumbered .unlisted}
@@ -90,7 +90,7 @@ peopleD <- read_csv("..\\..\\Web\\abc-lab\\peopleLookup.csv",
     paste0("#### ", x, "\n", y %>% pull(displayText) %>% reduce(paste0), "\n")
     }))
 
-
+ 
 
 ## Code to add photos in images/people
 stem <- "images/people/"
