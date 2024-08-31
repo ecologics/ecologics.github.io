@@ -39,7 +39,7 @@ Can't access these? Send an email to [Paul Galpern](pgalpern.qmd).
 
 #### ABC Lab Publications {style="text-indent: -2rem;"}
 
-<li>Neame, T. & Galpern, P. (2024). Body size mediates ground beetle conservation biocontrol outcomes. *Agriculture, Ecosystems & Environment*. In revision.</li>
+<li>Neame, T. & Galpern, P. (2024). Body size mediates ground beetle dispersal from non-crop vegetation: Implications for conservation biocontrol. *Agriculture, Ecosystems & Environment*. In press.</li>
 
 <li>Neame, T., Robinson, S., & Galpern, P. (2024). Proximity to non-crop vegetation increases estimates of predation frequency but not beetle numbers. *Agriculture, Ecosystems & Environment*. 373:109133. [Link](https://www.sciencedirect.com/science/article/pii/S0167880924002512){target="_blank"}</li>
 

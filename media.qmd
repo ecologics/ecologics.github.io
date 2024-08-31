@@ -9,35 +9,37 @@ format:
 bibliography: abclab.bib
 link-citations: true
 csl: apa-numeric-superscript-brackets.csl
-
---- 
+---
 
 ## Videos
 
 Here are some recent talks given by Paul Galpern on our [agriculture](projects_agriculture.qmd) and [biodiversity](projects_biodiversity.qmd) research.
 
 ::: {.grid style="background-color: #f2f2f2; padding: 1em;"}
-::: {.g-col-6}
-[The Simpson Centre]{style="font-weight: 900;"} (2024)  
+::: g-col-6
+[The Simpson Centre]{style="font-weight: 900;"} (2024)\
 Sustainable agriculture {{< video src="https://www.youtube.com/embed/yR4mteUM_9I" >}}
 :::
-::: {.g-col-6}
-[UAlberta Sustainability]{style="font-weight: 900;"} (2023)   
+
+::: g-col-6
+[UAlberta Sustainability]{style="font-weight: 900;"} (2023)\
 Sustainable Agriculture {{< video src="https://www.youtube.com/embed/uPvr-WluPRs" >}}
 :::
-::: {.g-col-6}
-[Farming Smarter Lethbridge]{style="font-weight: 900;"} (2022)   
-Sustainable agriculture  {{< video src="https://www.youtube.com/embed/hsEdQN2Eriw" >}}
+
+::: g-col-6
+[Farming Smarter Lethbridge]{style="font-weight: 900;"} (2022)\
+Sustainable agriculture {{< video src="https://www.youtube.com/embed/hsEdQN2Eriw" >}}
 :::
-::: {.g-col-6}
-[Canola Watch Webinar]{style="font-weight: 900;"} (2022)   
+
+::: g-col-6
+[Canola Watch Webinar]{style="font-weight: 900;"} (2022)\
 Sustainable agriculture {{< video src="https://www.youtube.com/embed/jLS2H0OlP6A" >}}
 :::
 :::
 
 ## Posters {style="margin-top: 3em;"}
 
-* Poster by Dr. Danielle Clake. Genetic data suggest limited bumble bee dispersal into Canadian Rockies. [[PDF](danielle_clake_poster.pdf){target="_blank"}]
+-   Poster by Dr. Danielle Clake. Genetic data suggest limited bumble bee dispersal into Canadian Rockies. \[[PDF](danielle_clake_poster.pdf){target="_blank"}\]
 
 ## Media coverage {style="margin-top: 3em;"}
 
@@ -85,6 +87,3 @@ newsD %>%
 
 
 ```
-
-
-
