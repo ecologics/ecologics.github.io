@@ -39,9 +39,10 @@ Can't access these? Send an email to [Paul Galpern](pgalpern.qmd).
 
 #### ABC Lab Publications {style="text-indent: -2rem;"}
 
-<li>Neame, T. & Galpern, P. (2024). Body size mediates ground beetle dispersal from non-crop vegetation: Implications for conservation biocontrol. *Agriculture, Ecosystems & Environment*. In press.</li>
+<li>Neame, T. & Galpern, P. (2025). Body size mediates ground beetle dispersal from non-crop vegetation: Implications for conservation biocontrol. *Agriculture, Ecosystems & Environment*. 377:109270.
+[Link](https://doi.org/10.1016/j.agee.2024.109270){target="_blank"}</li>
 
-<li>Neame, T., Robinson, S., & Galpern, P. (2024). Proximity to non-crop vegetation increases estimates of predation frequency but not beetle numbers. *Agriculture, Ecosystems & Environment*. 373:109133. [Link](https://www.sciencedirect.com/science/article/pii/S0167880924002512){target="_blank"}</li>
+<li>Neame, T., Robinson, S., & Galpern, P. (2024). Proximity to non-crop vegetation increases estimates of predation frequency but not beetle numbers. *Agriculture, Ecosystems & Environment*. 373:109133. [Link](https://doi.org/10.1016/j.agee.2024.109133){target="_blank"}</li>
 
 <li>Cohen, A. L., Devries, J. H., & Galpern, P. (2024). Wetland cover in agricultural landscapes is positively associated with bumblebee abundance. *Insect Conservation and Diversity*, *17*. [Link](https://doi.org/10.1111/icad.12701){target="_blank"}</li>
 
