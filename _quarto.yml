@@ -38,8 +38,6 @@ website:
             file: publications.qmd
           - text: "Media"
             file: media.qmd
-          - text: "Illustration"
-            file: illustration.qmd
       - text: "People"
         menu:
           - text: "Students & Trainees"
