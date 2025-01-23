@@ -15,7 +15,7 @@ csl: apa-numeric-superscript-brackets.csl
 
 Here are some recent talks given by Paul Galpern on our [agriculture](projects_agriculture.qmd) and [biodiversity](projects_biodiversity.qmd) research.
 
-::: {.grid style="background-color: #f2f2f2; padding: 1em;"}
+::::::: {.grid style="background-color: #f2f2f2; padding: 1em;"}
 ::: g-col-6
 [The Simpson Centre]{style="font-weight: 900;"} (2024)\
 Sustainable agriculture {{< video src="https://www.youtube.com/embed/yR4mteUM_9I" >}}
@@ -35,7 +35,7 @@ Sustainable agriculture {{< video src="https://www.youtube.com/embed/hsEdQN2Eriw
 [Canola Watch Webinar]{style="font-weight: 900;"} (2022)\
 Sustainable agriculture {{< video src="https://www.youtube.com/embed/jLS2H0OlP6A" >}}
 :::
-:::
+:::::::
 
 ## Posters {style="margin-top: 3em;"}
 
