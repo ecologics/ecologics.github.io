@@ -17,18 +17,34 @@ Here are some recent talks given by Paul Galpern on our [agriculture](projects_a
 
 ::::::: {.grid style="background-color: #f2f2f2; padding: 1em;"}
 ::: g-col-6
+[Prairie Precision Sustainability Network]{style="font-weight: 900;"} (2025)\
+{{< video src="https://www.youtube.com/embed/CteFt87MTiw?si=odXv1GpMlt1wdusR" >}}
+:::
+
+::: g-col-6
+[Podcast on Messy Fields]{style="font-weight: 900;"} (2025)\
+<iframe 
+  src="https://open.spotify.com/embed/episode/77JTg6otfopLmtBEemWKLQ" 
+  width="100%" 
+  height="232" 
+  frameborder="0" 
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+</iframe>
+:::
+
+::: g-col-6
 [The Simpson Centre]{style="font-weight: 900;"} (2024)\
-Sustainable agriculture {{< video src="https://www.youtube.com/embed/yR4mteUM_9I" >}}
+{{< video src="https://www.youtube.com/embed/yR4mteUM_9I" >}}
 :::
 
 ::: g-col-6
 [UAlberta Sustainability]{style="font-weight: 900;"} (2023)\
-Sustainable Agriculture {{< video src="https://www.youtube.com/embed/uPvr-WluPRs" >}}
+{{< video src="https://www.youtube.com/embed/uPvr-WluPRs" >}}
 :::
 
 ::: g-col-6
 [Farming Smarter Lethbridge]{style="font-weight: 900;"} (2022)\
-Sustainable agriculture {{< video src="https://www.youtube.com/embed/hsEdQN2Eriw" >}}
+{{< video src="https://www.youtube.com/embed/hsEdQN2Eriw" >}}
 :::
 
 ::: g-col-6
