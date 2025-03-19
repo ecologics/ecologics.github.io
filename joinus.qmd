@@ -15,7 +15,7 @@ format:
 
 We work hard to create a research community in which everyone is welcomed and feels included.  We'd love to have you join us.
 
-Don't hesitate to reach out with any questions to [Dr. Paul Galpern](pgalpern.qmd) or [Dr. Mindi Summers](msummers.qmd).
+Don't hesitate to reach out with any questions to [Dr. Paul Galpern](pgalpern.qmd).
 
 
 #### Research Openings
