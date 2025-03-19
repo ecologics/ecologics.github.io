@@ -39,6 +39,9 @@ Can't access these? Send an email to [Paul Galpern](pgalpern.qmd).
 
 #### ABC Lab Publications {style="text-indent: -2rem;"}
 
+<li>Cohen, A. L., Best, L. R., Devries, J. H., Vickruck, J. & Galpern, P. (2025). Climate influences broadly, landscape influences narrowly: Implications for agricultural beneficial insects. *Science of The Total Environment*. 973:179150.
+[Link](https://doi.org/10.1016/j.scitotenv.2025.179150){target="_blank"}</li>
+
 <li>Neame, T. & Galpern, P. (2025). Body size mediates ground beetle dispersal from non-crop vegetation: Implications for conservation biocontrol. *Agriculture, Ecosystems & Environment*. 377:109270.
 [Link](https://doi.org/10.1016/j.agee.2024.109270){target="_blank"}</li>
 
