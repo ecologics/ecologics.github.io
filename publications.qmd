@@ -38,6 +38,7 @@ Can't access these? Send an email to [Paul Galpern](pgalpern.qmd).
 <ol reversed>
 
 #### ABC Lab Publications {style="text-indent: -2rem;"}
+<li>Cohen, A. L., Best, L. R., Clake, D., Edwards, D., Gavin, M., Johnson, S. A., Retzlaff, J., Robinson, S. V. J., Vickruck, J. & Galpern, P. (2025). A beneficial arthropod dataset for agricultural landscapes in Western Canada, and adjacent mountain ecosystems. *Scientific Data*. 12:787. [Link](https://doi.org/10.1038/s41597-025-05133-2){target="_blank"}</li>
 
 <li>Cohen, A. L., Best, L. R., Devries, J. H., Vickruck, J. & Galpern, P. (2025). Climate influences broadly, landscape influences narrowly: Implications for agricultural beneficial insects. *Science of The Total Environment*. 973:179150.
 [Link](https://doi.org/10.1016/j.scitotenv.2025.179150){target="_blank"}</li>
