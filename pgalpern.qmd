@@ -10,7 +10,7 @@ format:
 ![](images/pgalpern.jpg)
 
 ::: {style="margin-top: 1em; font-weight: 900; color: black;"}
-Associate Professor\
+Professor\
 [Department of Biological Sciences](https://science.ucalgary.ca/biological-sciences){target="_blank"}\
 University of Calgary\
 Alberta\
